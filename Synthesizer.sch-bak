@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2600 2650 2200 1800
+S 8850 4500 2200 1800
 U 5D7A118D
 F0 "Decouplers FPGA" 50
 F1 "FPGA_DecCaps.sch" 50
