@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -289,4 +289,8 @@ Wire Wire Line
 	1700 3050 1300 3050
 Connection ~ 1700 3050
 Connection ~ 1300 3050
+Text HLabel 1300 3050 0    50   Input ~ 0
+FPGADecoupleVCC
+Text HLabel 1300 3550 0    50   Input ~ 0
+FPGADecoupleGND
 $EndSCHEMATC

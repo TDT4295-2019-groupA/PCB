@@ -1,0 +1,292 @@
+EESchema Schematic File Version 4
+LIBS:Synthesizer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5DD2CD6C
+P 2050 3150
+F 0 "C?" H 2165 3196 50  0000 L CNN
+F 1 "47u" H 2165 3105 50  0000 L CNN
+F 2 "" H 2088 3000 50  0001 C CNN
+F 3 "~" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2ED13
+P 2400 3150
+F 0 "C?" H 2515 3196 50  0000 L CNN
+F 1 "47u" H 2515 3105 50  0000 L CNN
+F 2 "" H 2438 3000 50  0001 C CNN
+F 3 "~" H 2400 3150 50  0001 C CNN
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2EF75
+P 2750 3150
+F 0 "C?" H 2865 3196 50  0000 L CNN
+F 1 "47u" H 2865 3105 50  0000 L CNN
+F 2 "" H 2788 3000 50  0001 C CNN
+F 3 "~" H 2750 3150 50  0001 C CNN
+	1    2750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2F190
+P 3100 3150
+F 0 "C?" H 3215 3196 50  0000 L CNN
+F 1 "4.7u" H 3215 3105 50  0000 L CNN
+F 2 "" H 3138 3000 50  0001 C CNN
+F 3 "~" H 3100 3150 50  0001 C CNN
+	1    3100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2F2E0
+P 3500 3150
+F 0 "C?" H 3615 3196 50  0000 L CNN
+F 1 "4.7u" H 3615 3105 50  0000 L CNN
+F 2 "" H 3538 3000 50  0001 C CNN
+F 3 "~" H 3500 3150 50  0001 C CNN
+	1    3500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2F5E9
+P 3900 3150
+F 0 "C?" H 4015 3196 50  0000 L CNN
+F 1 "4.7u" H 4015 3105 50  0000 L CNN
+F 2 "" H 3938 3000 50  0001 C CNN
+F 3 "~" H 3900 3150 50  0001 C CNN
+	1    3900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2F833
+P 4300 3150
+F 0 "C?" H 4415 3196 50  0000 L CNN
+F 1 "4.7u" H 4415 3105 50  0000 L CNN
+F 2 "" H 4338 3000 50  0001 C CNN
+F 3 "~" H 4300 3150 50  0001 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2FB2C
+P 4700 3150
+F 0 "C?" H 4815 3196 50  0000 L CNN
+F 1 "470n" H 4815 3105 50  0000 L CNN
+F 2 "" H 4738 3000 50  0001 C CNN
+F 3 "~" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2FD8E
+P 5100 3150
+F 0 "C?" H 5215 3196 50  0000 L CNN
+F 1 "470n" H 5215 3105 50  0000 L CNN
+F 2 "" H 5138 3000 50  0001 C CNN
+F 3 "~" H 5100 3150 50  0001 C CNN
+	1    5100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD2FFFD
+P 5500 3150
+F 0 "C?" H 5615 3196 50  0000 L CNN
+F 1 "470n" H 5615 3105 50  0000 L CNN
+F 2 "" H 5538 3000 50  0001 C CNN
+F 3 "~" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD3026B
+P 5900 3150
+F 0 "C?" H 6015 3196 50  0000 L CNN
+F 1 "470n" H 6015 3105 50  0000 L CNN
+F 2 "" H 5938 3000 50  0001 C CNN
+F 3 "~" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD3047E
+P 6300 3150
+F 0 "C?" H 6415 3196 50  0000 L CNN
+F 1 "470n" H 6415 3105 50  0000 L CNN
+F 2 "" H 6338 3000 50  0001 C CNN
+F 3 "~" H 6300 3150 50  0001 C CNN
+	1    6300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD3065D
+P 6700 3150
+F 0 "C?" H 6815 3196 50  0000 L CNN
+F 1 "470n" H 6815 3105 50  0000 L CNN
+F 2 "" H 6738 3000 50  0001 C CNN
+F 3 "~" H 6700 3150 50  0001 C CNN
+	1    6700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD3084F
+P 7100 3150
+F 0 "C?" H 7215 3196 50  0000 L CNN
+F 1 "470n" H 7215 3105 50  0000 L CNN
+F 2 "" H 7138 3000 50  0001 C CNN
+F 3 "~" H 7100 3150 50  0001 C CNN
+	1    7100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DD30A38
+P 7500 3150
+F 0 "C?" H 7615 3196 50  0000 L CNN
+F 1 "470n" H 7615 3105 50  0000 L CNN
+F 2 "" H 7538 3000 50  0001 C CNN
+F 3 "~" H 7500 3150 50  0001 C CNN
+	1    7500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3000 2400 3000
+Wire Wire Line
+	2400 3000 2750 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2750 3000 3100 3000
+Connection ~ 2750 3000
+Wire Wire Line
+	3100 3000 3500 3000
+Connection ~ 3100 3000
+Wire Wire Line
+	3500 3000 3900 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3900 3000 4300 3000
+Connection ~ 3900 3000
+Wire Wire Line
+	4300 3000 4700 3000
+Connection ~ 4300 3000
+Wire Wire Line
+	4700 3000 5100 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	5100 3000 5500 3000
+Connection ~ 5100 3000
+Wire Wire Line
+	5500 3000 5900 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	5900 3000 6300 3000
+Connection ~ 5900 3000
+Connection ~ 6300 3000
+Wire Wire Line
+	6700 3000 7100 3000
+Connection ~ 6700 3000
+Wire Wire Line
+	7100 3000 7500 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	6300 3000 6700 3000
+Wire Wire Line
+	7500 3300 7100 3300
+Connection ~ 2400 3300
+Wire Wire Line
+	2400 3300 2050 3300
+Connection ~ 2750 3300
+Wire Wire Line
+	2750 3300 2400 3300
+Connection ~ 3100 3300
+Wire Wire Line
+	3100 3300 2750 3300
+Connection ~ 3500 3300
+Wire Wire Line
+	3500 3300 3100 3300
+Connection ~ 3900 3300
+Wire Wire Line
+	3900 3300 3500 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	4300 3300 3900 3300
+Connection ~ 4700 3300
+Wire Wire Line
+	4700 3300 4300 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	5100 3300 4700 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	5500 3300 5100 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3300 5500 3300
+Connection ~ 6300 3300
+Wire Wire Line
+	6300 3300 5900 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	6700 3300 6300 3300
+Connection ~ 7100 3300
+Wire Wire Line
+	7100 3300 6700 3300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DD5BE14
+P 2050 2800
+F 0 "#PWR?" H 2050 2650 50  0001 C CNN
+F 1 "+3.3V" H 2065 2973 50  0000 C CNN
+F 2 "" H 2050 2800 50  0001 C CNN
+F 3 "" H 2050 2800 50  0001 C CNN
+	1    2050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD5C45A
+P 2050 3550
+F 0 "#PWR?" H 2050 3300 50  0001 C CNN
+F 1 "GND" H 2055 3377 50  0000 C CNN
+F 2 "" H 2050 3550 50  0001 C CNN
+F 3 "" H 2050 3550 50  0001 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3550 2050 3300
+Connection ~ 2050 3300
+Wire Wire Line
+	2050 2800 2050 3000
+Connection ~ 2050 3000
+$EndSCHEMATC
