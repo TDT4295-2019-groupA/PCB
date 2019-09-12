@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:C C?
+U 1 1 5D7A12B2
+P 1150 3950
+F 0 "C?" H 1328 3996 50  0000 L CNN
+F 1 "47u" H 1328 3905 50  0000 L CNN
+F 2 "" H 1150 3950 50  0001 C CNN
+F 3 "~" H 1150 3950 50  0001 C CNN
+	1    1150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7A1504
+P 1800 3950
+F 0 "C?" H 1978 3996 50  0000 L CNN
+F 1 "47u" H 1978 3905 50  0000 L CNN
+F 2 "" H 1800 3950 50  0001 C CNN
+F 3 "~" H 1800 3950 50  0001 C CNN
+	1    1800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7A18E8
+P 2400 3950
+F 0 "C?" H 2578 3996 50  0000 L CNN
+F 1 "4.7u" H 2578 3905 50  0000 L CNN
+F 2 "" H 2400 3950 50  0001 C CNN
+F 3 "~" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7A1D69
+P 3000 3950
+F 0 "C?" H 3178 3996 50  0000 L CNN
+F 1 "4.7u" H 3178 3905 50  0000 L CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D7AF095
+P 1300 2900
+F 0 "#PWR?" H 1300 2750 50  0001 C CNN
+F 1 "+3.3V" H 1315 3073 50  0000 C CNN
+F 2 "" H 1300 2900 50  0001 C CNN
+F 3 "" H 1300 2900 50  0001 C CNN
+	1    1300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7AF5FD
+P 1450 5050
+F 0 "#PWR?" H 1450 4800 50  0001 C CNN
+F 1 "GND" H 1455 4877 50  0000 C CNN
+F 2 "" H 1450 5050 50  0001 C CNN
+F 3 "" H 1450 5050 50  0001 C CNN
+	1    1450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B0102
+P 3450 3950
+F 0 "C?" H 3628 3996 50  0000 L CNN
+F 1 "470n" H 3628 3905 50  0000 L CNN
+F 2 "" H 3450 3950 50  0001 C CNN
+F 3 "~" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B050B
+P 3900 3950
+F 0 "C?" H 4078 3996 50  0000 L CNN
+F 1 "470n" H 4078 3905 50  0000 L CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "~" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B071B
+P 4300 3950
+F 0 "C?" H 4478 3996 50  0000 L CNN
+F 1 "470n" H 4478 3905 50  0000 L CNN
+F 2 "" H 4300 3950 50  0001 C CNN
+F 3 "~" H 4300 3950 50  0001 C CNN
+	1    4300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B0F63
+P 4750 3950
+F 0 "C?" H 4928 3996 50  0000 L CNN
+F 1 "470n" H 4928 3905 50  0000 L CNN
+F 2 "" H 4750 3950 50  0001 C CNN
+F 3 "~" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B144B
+P 5150 3950
+F 0 "C?" H 5328 3996 50  0000 L CNN
+F 1 "47u" H 5328 3905 50  0000 L CNN
+F 2 "" H 5150 3950 50  0001 C CNN
+F 3 "~" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B17F0
+P 5600 3950
+F 0 "C?" H 5778 3996 50  0000 L CNN
+F 1 "4.7u" H 5778 3905 50  0000 L CNN
+F 2 "" H 5600 3950 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B1CE1
+P 5950 3950
+F 0 "C?" H 6128 3996 50  0000 L CNN
+F 1 "4.7u" H 6128 3905 50  0000 L CNN
+F 2 "" H 5950 3950 50  0001 C CNN
+F 3 "~" H 5950 3950 50  0001 C CNN
+	1    5950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B270B
+P 6350 3950
+F 0 "C?" H 6528 3996 50  0000 L CNN
+F 1 "470n" H 6528 3905 50  0000 L CNN
+F 2 "" H 6350 3950 50  0001 C CNN
+F 3 "~" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B2997
+P 6700 3950
+F 0 "C?" H 6878 3996 50  0000 L CNN
+F 1 "470n" H 6878 3905 50  0000 L CNN
+F 2 "" H 6700 3950 50  0001 C CNN
+F 3 "~" H 6700 3950 50  0001 C CNN
+	1    6700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B2CD0
+P 7050 3950
+F 0 "C?" H 7228 3996 50  0000 L CNN
+F 1 "470n" H 7228 3905 50  0000 L CNN
+F 2 "" H 7050 3950 50  0001 C CNN
+F 3 "~" H 7050 3950 50  0001 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5D7B2F74
+P 7400 3950
+F 0 "C?" H 7578 3996 50  0000 L CNN
+F 1 "470n" H 7578 3905 50  0000 L CNN
+F 2 "" H 7400 3950 50  0001 C CNN
+F 3 "~" H 7400 3950 50  0001 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2900 1300 3700
+Wire Wire Line
+	1150 3700 1300 3700
+Connection ~ 1300 3700
+Wire Wire Line
+	1300 3700 1800 3700
+Wire Wire Line
+	1800 3700 2400 3700
+Connection ~ 1800 3700
+Wire Wire Line
+	3000 3700 2400 3700
+Connection ~ 2400 3700
+Wire Wire Line
+	1450 4200 1450 5050
+Wire Wire Line
+	1150 4200 1450 4200
+Connection ~ 1450 4200
+Wire Wire Line
+	1450 4200 1800 4200
+Wire Wire Line
+	1800 4200 2400 4200
+Connection ~ 1800 4200
+Wire Wire Line
+	2400 4200 3000 4200
+Connection ~ 2400 4200
+Wire Wire Line
+	3000 4200 3450 4200
+Connection ~ 3000 4200
+Wire Wire Line
+	3450 3700 3000 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3900 3700 3450 3700
+Connection ~ 3450 3700
+Wire Wire Line
+	4300 3700 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	4300 4200 3900 4200
+Wire Wire Line
+	3900 4200 3450 4200
+Connection ~ 3900 4200
+Connection ~ 3450 4200
+Wire Wire Line
+	7400 4200 7050 4200
+Wire Wire Line
+	7050 4200 6700 4200
+Connection ~ 7050 4200
+Wire Wire Line
+	6700 4200 6350 4200
+Connection ~ 6700 4200
+Wire Wire Line
+	5950 4200 6350 4200
+Connection ~ 6350 4200
+Wire Wire Line
+	5950 4200 5600 4200
+Connection ~ 5950 4200
+Wire Wire Line
+	4750 4200 5150 4200
+Connection ~ 5600 4200
+Connection ~ 5150 4200
+Wire Wire Line
+	5150 4200 5600 4200
+Wire Wire Line
+	4750 4200 4300 4200
+Connection ~ 4750 4200
+Connection ~ 4300 4200
+Wire Wire Line
+	7400 3700 7050 3700
+Connection ~ 4300 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	4750 3700 4300 3700
+Connection ~ 5150 3700
+Wire Wire Line
+	5150 3700 4750 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 5150 3700
+Connection ~ 5950 3700
+Wire Wire Line
+	5950 3700 5600 3700
+Connection ~ 6350 3700
+Wire Wire Line
+	6350 3700 5950 3700
+Connection ~ 6700 3700
+Wire Wire Line
+	6700 3700 6350 3700
+Connection ~ 7050 3700
+Wire Wire Line
+	7050 3700 6700 3700
+$EndSCHEMATC
