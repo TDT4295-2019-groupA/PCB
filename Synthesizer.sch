@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -349,4 +350,19 @@ Text Notes 4250 3350 0    50   ~ 0
 split this into units as we figure out what each pin will be used for
 Text Notes 5000 6400 0    50   ~ 0
 decouplers for the MCU
+$Sheet
+S 13650 7050 2150 1400
+U 5DC1AA2E
+F0 "PSU" 50
+F1 "PSU.sch" 50
+F2 "POWER_IN" I L 13650 7200 50 
+$EndSheet
+Text HLabel 15800 7150 0    50   Output ~ 0
+1.0V
+Text HLabel 15800 7250 0    50   Output ~ 0
+1.8V
+Text HLabel 15800 7350 0    50   Output ~ 0
+3.3V
+Text HLabel 15800 7450 0    50   Output ~ 0
+3.3VA
 $EndSCHEMATC
