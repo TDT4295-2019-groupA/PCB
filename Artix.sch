@@ -495,9 +495,6 @@ Wire Wire Line
 	7400 5300 7400 5050
 Wire Wire Line
 	7400 5050 7100 5050
-Connection ~ 7100 5050
-Wire Wire Line
-	7100 5050 7100 5000
 Wire Wire Line
 	7400 5700 7400 5600
 Wire Wire Line
@@ -512,8 +509,6 @@ Wire Wire Line
 Connection ~ 7300 5700
 Wire Wire Line
 	7300 5700 7400 5700
-Wire Wire Line
-	1800 10750 1800 10850
 Wire Wire Line
 	1800 10850 1950 10850
 Wire Wire Line
@@ -656,7 +651,6 @@ Wire Wire Line
 	1950 11450 1800 11450
 Wire Wire Line
 	1800 11450 1800 10850
-Connection ~ 1800 10850
 Wire Wire Line
 	1950 11350 1850 11350
 Wire Wire Line
@@ -929,23 +923,10 @@ NoConn ~ 20000 7700
 NoConn ~ 20000 7800
 NoConn ~ 20000 7900
 NoConn ~ 20000 8000
-Text Label 3800 4900 0    50   ~ 0
-3.3V
 Text Label 2000 4300 0    50   ~ 0
 3.3V
 Wire Wire Line
 	2000 4300 2000 4450
-Text Label 2700 6300 0    50   ~ 0
-3.3V
-Wire Wire Line
-	2700 6300 2700 6400
-Connection ~ 2700 6400
-Text Label 2750 2300 0    50   ~ 0
-3.3V
-Wire Wire Line
-	2750 2300 2750 2400
-Text Label 7100 5000 0    50   ~ 0
-3.3V
 Wire Wire Line
 	1200 11550 1200 11650
 $Comp
@@ -980,5 +961,52 @@ F 2 "" H 4200 10850 50  0001 C CNN
 F 3 "" H 4200 10850 50  0001 C CNN
 	1    4200 10850
 	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D80F638
+P 2750 2400
+F 0 "#PWR?" H 2750 2250 50  0001 C CNN
+F 1 "+3.3V" H 2765 2573 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D810C24
+P 7100 5050
+F 0 "#PWR?" H 7100 4900 50  0001 C CNN
+F 1 "+3.3V" H 7115 5223 50  0000 C CNN
+F 2 "" H 7100 5050 50  0001 C CNN
+F 3 "" H 7100 5050 50  0001 C CNN
+	1    7100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D811D9E
+P 2700 6400
+F 0 "#PWR?" H 2700 6250 50  0001 C CNN
+F 1 "+3.3V" H 2715 6573 50  0000 C CNN
+F 2 "" H 2700 6400 50  0001 C CNN
+F 3 "" H 2700 6400 50  0001 C CNN
+	1    2700 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 6400
+Connection ~ 7100 5050
+Connection ~ 1800 10850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D813AFF
+P 3800 4900
+F 0 "#PWR?" H 3800 4750 50  0001 C CNN
+F 1 "+3.3V" H 3815 5073 50  0000 C CNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	1    3800 4900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
