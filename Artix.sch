@@ -923,8 +923,6 @@ NoConn ~ 20000 7700
 NoConn ~ 20000 7800
 NoConn ~ 20000 7900
 NoConn ~ 20000 8000
-Text Label 2000 4300 0    50   ~ 0
-3.3V
 Wire Wire Line
 	2000 4300 2000 4450
 Wire Wire Line
@@ -1007,6 +1005,17 @@ F 1 "+3.3V" H 3815 5073 50  0000 C CNN
 F 2 "" H 3800 4900 50  0001 C CNN
 F 3 "" H 3800 4900 50  0001 C CNN
 	1    3800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D82BEC8
+P 2000 4300
+F 0 "#PWR?" H 2000 4150 50  0001 C CNN
+F 1 "+3.3V" H 2015 4473 50  0000 C CNN
+F 2 "" H 2000 4300 50  0001 C CNN
+F 3 "" H 2000 4300 50  0001 C CNN
+	1    2000 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
