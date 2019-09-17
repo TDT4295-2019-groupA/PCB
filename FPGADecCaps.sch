@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -321,8 +320,6 @@ $EndComp
 Wire Wire Line
 	3800 4550 3800 4300
 Connection ~ 3800 4300
-Wire Wire Line
-	3800 3750 3800 4000
 $Comp
 L Device:C C18
 U 1 1 5D7E3895
@@ -704,12 +701,50 @@ Connection ~ 7000 5750
 Connection ~ 7700 5750
 Wire Wire Line
 	7700 5750 7000 5750
-Text Label 3800 1200 0    50   ~ 0
-1.0V
-Text Label 3800 2450 0    50   ~ 0
-1.0V
-Text Label 3800 3750 0    50   ~ 0
-1.8V
-Text Label 3800 5550 0    50   ~ 0
-3.3V
+$Comp
+L power:+1V0 #PWR?
+U 1 1 5D82295E
+P 3800 1200
+F 0 "#PWR?" H 3800 1050 50  0001 C CNN
+F 1 "+1V0" H 3815 1373 50  0000 C CNN
+F 2 "" H 3800 1200 50  0001 C CNN
+F 3 "" H 3800 1200 50  0001 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V0 #PWR?
+U 1 1 5D823042
+P 3800 2450
+F 0 "#PWR?" H 3800 2300 50  0001 C CNN
+F 1 "+1V0" H 3815 2623 50  0000 C CNN
+F 2 "" H 3800 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3750 3800 4000
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5D824195
+P 3800 3750
+F 0 "#PWR?" H 3800 3600 50  0001 C CNN
+F 1 "+1V8" H 3815 3923 50  0000 C CNN
+F 2 "" H 3800 3750 50  0001 C CNN
+F 3 "" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8259D3
+P 3800 5550
+F 0 "#PWR?" H 3800 5400 50  0001 C CNN
+F 1 "+3.3V" H 3815 5723 50  0000 C CNN
+F 2 "" H 3800 5550 50  0001 C CNN
+F 3 "" H 3800 5550 50  0001 C CNN
+	1    3800 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
