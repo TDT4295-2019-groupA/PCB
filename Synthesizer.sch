@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -244,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	15900 7450 16100 7450
 $Comp
-L Synthesizer-rescue:EFM32GG11B1xx-Synth U1
+L Synth:EFM32GG11B1xx U1
 U 4 1 5D7A65F6
 P 14000 3100
 F 0 "U1" H 14050 3865 50  0000 C CNN
@@ -255,13 +254,7 @@ F 3 "" H 14000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 3050 14700 2950
-Connection ~ 14700 2950
-Wire Wire Line
-	14700 2950 14700 2850
-Wire Wire Line
 	15050 2850 14700 2850
-Connection ~ 14700 2850
 Wire Wire Line
 	5300 2200 5300 2400
 $Comp
@@ -286,7 +279,6 @@ F 3 "" H 5300 2400 50  0001 C CNN
 	1    5300 2400
 	-1   0    0    1   
 $EndComp
-Connection ~ 13400 2850
 Wire Wire Line
 	13400 2950 13400 2850
 $Comp
@@ -536,7 +528,6 @@ F 3 "~" H 14700 2650 50  0001 C CNN
 	1    14700 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 14700 2650
 Wire Wire Line
 	14700 2650 14800 2650
 $Comp
@@ -1058,7 +1049,7 @@ $EndSheet
 Text Notes 9200 8700 0    50   ~ 0
 PCM audio source
 $Comp
-L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
+L Synth:EFM32GG11B1xx U7
 U 2 1 5D87491B
 P 3500 4600
 F 0 "U7" H 3717 3585 50  0000 C CNN
@@ -1069,7 +1060,7 @@ F 3 "" H 3450 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
+L Synth:EFM32GG11B1xx U7
 U 1 1 5D8809F1
 P 6750 4450
 F 0 "U7" H 7928 4471 50  0000 L CNN
@@ -1109,7 +1100,7 @@ NoConn ~ 9150 8750
 NoConn ~ 9150 8850
 NoConn ~ 9150 8950
 $Comp
-L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
+L Synth:EFM32GG11B1xx U7
 U 5 1 5D97B643
 P 15050 4850
 F 0 "U7" H 16278 4871 50  0000 L CNN
@@ -1130,27 +1121,6 @@ F 3 "" H 14050 4900 50  0001 C CNN
 	1    14050 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	14050 4200 14050 4300
-Connection ~ 14050 4900
-Connection ~ 14050 4300
-Wire Wire Line
-	14050 4300 14050 4400
-Connection ~ 14050 4400
-Wire Wire Line
-	14050 4400 14050 4500
-Connection ~ 14050 4500
-Wire Wire Line
-	14050 4500 14050 4600
-Connection ~ 14050 4600
-Wire Wire Line
-	14050 4600 14050 4700
-Connection ~ 14050 4700
-Wire Wire Line
-	14050 4700 14050 4800
-Connection ~ 14050 4800
-Wire Wire Line
-	14050 4800 14050 4900
 $Comp
 L Synth:MCU_debug U9
 U 1 1 5D986FE8
@@ -1232,14 +1202,6 @@ F 3 "" H 14050 5750 50  0001 C CNN
 	1    14050 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14050 5750 14050 5600
-Connection ~ 14050 5600
-Wire Wire Line
-	14050 5400 14050 5500
-Connection ~ 14050 5500
-Wire Wire Line
-	14050 5500 14050 5600
 $Comp
 L power:+3.3V #PWR0150
 U 1 1 5D9A1ED4
@@ -1336,4 +1298,10 @@ F 3 "" H 4500 2400 50  0001 C CNN
 	1    4500 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	14700 2850 14700 3050
+Wire Wire Line
+	14050 5400 14050 5750
+Wire Wire Line
+	14050 4200 14050 4900
 $EndSCHEMATC
