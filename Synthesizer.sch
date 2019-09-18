@@ -1050,15 +1050,15 @@ F4 "Soft-mute" I L 9150 8300 50
 F5 "Format-select" I L 9150 8400 50 
 F6 "OUTL" O R 11750 8100 50 
 F7 "OUTR" O R 11750 8200 50 
-F8 "Audio-data-word-clock-input" I L 9150 8750 50 
-F9 "Audio-data-input" I L 9150 8850 50 
-F10 "Audio-data-bit-clock-input" I L 9150 8950 50 
-F11 "System-clock-input" I L 9150 9050 50 
+F8 "Left-right-word-clock" I L 9150 8750 50 
+F9 "Audio-data" I L 9150 8850 50 
+F10 "Bit-clock" I L 9150 8950 50 
+F11 "System-master-clock" I L 9150 9050 50 
 $EndSheet
 Text Notes 9200 8700 0    50   ~ 0
 PCM audio source
 $Comp
-L Synth:EFM32GG11B1xx U7
+L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
 U 2 1 5D87491B
 P 3500 4600
 F 0 "U7" H 3717 3585 50  0000 C CNN
@@ -1069,7 +1069,7 @@ F 3 "" H 3450 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Synth:EFM32GG11B1xx U7
+L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
 U 1 1 5D8809F1
 P 6750 4450
 F 0 "U7" H 7928 4471 50  0000 L CNN
@@ -1105,15 +1105,11 @@ NoConn ~ 4500 5050
 NoConn ~ 4500 5150
 NoConn ~ 4500 5250
 NoConn ~ 4500 5350
-NoConn ~ 9150 8100
-NoConn ~ 9150 8200
-NoConn ~ 9150 8300
-NoConn ~ 9150 8400
 NoConn ~ 9150 8750
 NoConn ~ 9150 8850
 NoConn ~ 9150 8950
 $Comp
-L Synth:EFM32GG11B1xx U7
+L Synthesizer-rescue:EFM32GG11B1xx-Synth U7
 U 5 1 5D97B643
 P 15050 4850
 F 0 "U7" H 16278 4871 50  0000 L CNN
@@ -1290,4 +1286,54 @@ Wire Wire Line
 	13250 2650 13250 5000
 Wire Wire Line
 	13250 5000 13050 5000
+$Comp
+L power:GND #PWR0141
+U 1 1 5D9082D6
+P 9050 8500
+F 0 "#PWR0141" H 9050 8250 50  0001 C CNN
+F 1 "GND" H 9055 8327 50  0000 C CNN
+F 2 "" H 9050 8500 50  0001 C CNN
+F 3 "" H 9050 8500 50  0001 C CNN
+	1    9050 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 8400 9050 8400
+Wire Wire Line
+	9050 8400 9050 8500
+Wire Wire Line
+	9150 8200 9050 8200
+Connection ~ 9050 8400
+Wire Wire Line
+	9150 8100 9050 8100
+Wire Wire Line
+	9050 8100 9050 8200
+Connection ~ 9050 8200
+Wire Wire Line
+	9050 8200 9050 8400
+NoConn ~ 9150 8300
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5D8A2E94
+P 4500 2200
+F 0 "#FLG0107" H 4500 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 2373 50  0000 C CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2200 4500 2400
+$Comp
+L power:GNDA #PWR0152
+U 1 1 5D8A5FE2
+P 4500 2400
+F 0 "#PWR0152" H 4500 2150 50  0001 C CNN
+F 1 "GNDA" H 4505 2227 50  0000 C CNN
+F 2 "" H 4500 2400 50  0001 C CNN
+F 3 "" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
