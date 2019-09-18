@@ -1085,11 +1085,36 @@ F4 "Soft-mute" I L 9150 8300 50
 F5 "Format-select" I L 9150 8400 50 
 F6 "OUTL" O R 11750 8100 50 
 F7 "OUTR" O R 11750 8200 50 
-F8 "Audio-data-word-clock-input" I L 9150 8750 50 
-F9 "Audio-data-input" I L 9150 8850 50 
-F10 "Audio-data-bit-clock-input" I L 9150 8950 50 
-F11 "System-clock-input" I L 9150 9050 50 
+F8 "Left-right-word-clock" I L 9150 8750 50 
+F9 "Audio-data" I L 9150 8850 50 
+F10 "Bit-clock" I L 9150 8950 50 
+F11 "System-master-clock" I L 9150 9050 50 
 $EndSheet
 Text Notes 9200 8700 0    50   ~ 0
 PCM audio source
+$Comp
+L power:GND #PWR?
+U 1 1 5D9082D6
+P 9050 8500
+F 0 "#PWR?" H 9050 8250 50  0001 C CNN
+F 1 "GND" H 9055 8327 50  0000 C CNN
+F 2 "" H 9050 8500 50  0001 C CNN
+F 3 "" H 9050 8500 50  0001 C CNN
+	1    9050 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 8400 9050 8400
+Wire Wire Line
+	9050 8400 9050 8500
+Wire Wire Line
+	9150 8200 9050 8200
+Connection ~ 9050 8400
+Wire Wire Line
+	9150 8100 9050 8100
+Wire Wire Line
+	9050 8100 9050 8200
+Connection ~ 9050 8200
+Wire Wire Line
+	9050 8200 9050 8400
 $EndSCHEMATC
