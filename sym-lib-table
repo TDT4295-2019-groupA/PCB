@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name Synth)(type Legacy)(uri ${KIPRJMOD}/Synth.lib)(options "")(descr ""))
-  (lib (name Synthesizer-rescue)(type Legacy)(uri ${KIPRJMOD}/Synthesizer-rescue.lib)(options "")(descr ""))
+  (lib (name Synthesizer-rescue)(type Legacy)(uri ${KIPRJMOD}/Synthesizer-rescue.lib)(options "")(descr "")(disabled))
 )
