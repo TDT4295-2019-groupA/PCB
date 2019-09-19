@@ -15,17 +15,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
-U 1 1 5D866531
-P 10200 5400
-F 0 "U3" H 10200 2425 50  0000 C CNN
-F 1 "XC7A100T-FTG256" H 10200 2334 50  0000 C CNN
-F 2 "Package_BGA:Xilinx_FTG256" H 10200 5400 50  0001 C CNN
-F 3 "" H 10200 5400 50  0000 C CNN
-	1    10200 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
 U 2 1 5D8696A8
 P 18000 5400
 F 0 "U3" H 18000 2425 50  0000 C CNN
@@ -388,21 +377,19 @@ Wire Wire Line
 	2000 5000 2000 6900
 Wire Wire Line
 	2000 6900 3400 6900
-Text HLabel 2050 7000 0    50   Input ~ 0
+Text HLabel 1900 7000 0    50   Input ~ 0
 program_b
 Wire Wire Line
 	2250 5000 2250 7000
 Wire Wire Line
 	2250 7000 3400 7000
 Wire Wire Line
-	2050 7000 2250 7000
+	1900 7000 2250 7000
 Connection ~ 2250 7000
-Text HLabel 2500 6750 0    50   Input ~ 0
-done
 Wire Wire Line
 	3400 6800 2500 6800
 Wire Wire Line
-	2500 6800 2500 5000
+	2500 6800 2500 6700
 Wire Wire Line
 	2500 5000 2450 5000
 $Comp
@@ -730,47 +717,9 @@ F 3 "" H 10200 2500 50  0001 C CNN
 	1    10200 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11800 2500 11700 2500
-Connection ~ 8700 2500
-Wire Wire Line
-	8700 2500 8600 2500
-Connection ~ 8800 2500
-Wire Wire Line
-	8800 2500 8700 2500
-Connection ~ 8900 2500
-Wire Wire Line
-	8900 2500 8800 2500
-Connection ~ 9000 2500
-Wire Wire Line
-	9000 2500 8900 2500
-Connection ~ 9100 2500
-Wire Wire Line
-	9100 2500 9000 2500
 Connection ~ 10200 2500
-Wire Wire Line
-	10200 2500 9100 2500
-Connection ~ 11300 2500
-Wire Wire Line
-	11300 2500 10200 2500
-Connection ~ 11400 2500
-Wire Wire Line
-	11400 2500 11300 2500
-Connection ~ 11500 2500
-Wire Wire Line
-	11500 2500 11400 2500
-Connection ~ 11600 2500
-Wire Wire Line
-	11600 2500 11500 2500
-Connection ~ 11700 2500
-Wire Wire Line
-	11700 2500 11600 2500
 NoConn ~ 8200 3300
 NoConn ~ 8200 3900
-NoConn ~ 8200 4000
-NoConn ~ 8200 4100
-NoConn ~ 8200 4200
-NoConn ~ 8200 4300
 NoConn ~ 8200 4500
 NoConn ~ 8200 4600
 NoConn ~ 8200 4700
@@ -1021,4 +970,72 @@ F 3 "" H 2700 6400 50  0001 C CNN
 	1    2700 6400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11800 2500 11700 2500
+Connection ~ 11700 2500
+Wire Wire Line
+	11700 2500 11600 2500
+Connection ~ 11600 2500
+Wire Wire Line
+	11600 2500 11500 2500
+Connection ~ 11500 2500
+Wire Wire Line
+	11500 2500 11400 2500
+Connection ~ 11400 2500
+Wire Wire Line
+	11400 2500 11300 2500
+Wire Wire Line
+	11300 2500 10200 2500
+Connection ~ 11300 2500
+Wire Wire Line
+	10200 2500 9100 2500
+Connection ~ 9100 2500
+Wire Wire Line
+	9100 2500 9000 2500
+Connection ~ 9000 2500
+Wire Wire Line
+	9000 2500 8900 2500
+Connection ~ 8900 2500
+Wire Wire Line
+	8900 2500 8800 2500
+Connection ~ 8800 2500
+Wire Wire Line
+	8800 2500 8700 2500
+Wire Wire Line
+	8700 2500 8600 2500
+Connection ~ 8700 2500
+$Comp
+L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
+U 1 1 5D866531
+P 10200 5400
+F 0 "U3" H 10200 2425 50  0000 C CNN
+F 1 "XC7A100T-FTG256" H 10200 2334 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 10200 5400 50  0001 C CNN
+F 3 "" H 10200 5400 50  0000 C CNN
+	1    10200 5400
+	1    0    0    -1  
+$EndComp
+Text HLabel 7800 4000 0    50   Output ~ 0
+IO_L4P_T0_D04_14
+Text HLabel 7800 4100 0    50   Output ~ 0
+IO_L4N_T0_D05_14
+Text HLabel 7800 4200 0    50   Output ~ 0
+IO_L5P_T0_D06_14
+Text HLabel 7800 4300 0    50   Output ~ 0
+IO_L5P_T0_D07_14
+Wire Wire Line
+	8200 4000 7800 4000
+Wire Wire Line
+	8200 4100 7800 4100
+Wire Wire Line
+	8200 4200 7800 4200
+Wire Wire Line
+	7800 4300 8200 4300
+Text HLabel 1900 6700 0    50   Output ~ 0
+done
+Wire Wire Line
+	2500 6700 1900 6700
+Connection ~ 2500 6700
+Wire Wire Line
+	2500 6700 2500 5000
 $EndSCHEMATC
