@@ -1345,7 +1345,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 15650 5350 15350
 Connection ~ 5350 15350
-	14050 4200 14050 4900
 Wire Wire Line
 	10250 5300 10700 5300
 Wire Wire Line
@@ -1386,4 +1385,15 @@ Wire Wire Line
 	8500 7250 8500 9050
 Wire Wire Line
 	8500 9050 9150 9050
+$Comp
+L Connector:AudioJack3 J2
+U 1 1 5D83EB38
+P 2500 10100
+F 0 "J2" H 2482 10425 50  0000 C CNN
+F 1 "AudioJack3" H 2482 10334 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal" H 2500 10100 50  0001 C CNN
+F 3 "~" H 2500 10100 50  0001 C CNN
+	1    2500 10100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
