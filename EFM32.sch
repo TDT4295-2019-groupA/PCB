@@ -382,18 +382,6 @@ Wire Wire Line
 	6950 2200 6950 2300
 Wire Wire Line
 	6950 2100 6950 2200
-Connection ~ 6950 2100
-Connection ~ 6950 2000
-Wire Wire Line
-	6950 2000 6950 2100
-Wire Wire Line
-	6950 1900 6950 2000
-Connection ~ 6950 1900
-Connection ~ 6950 1800
-Wire Wire Line
-	6950 1800 6950 1900
-Wire Wire Line
-	6950 1700 6950 1800
 $Comp
 L Synth:EFM32GG11B4xx U?
 U 2 1 5D8D4390
@@ -501,4 +489,20 @@ Wire Wire Line
 Connection ~ 1950 2450
 Wire Wire Line
 	1950 2450 1950 2550
+Text HLabel 7100 1800 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 7100 1900 2    50   Output ~ 0
+SPI_CLK
+Text HLabel 7100 2000 2    50   Output ~ 0
+SPI_CS
+Wire Wire Line
+	6950 1700 7100 1700
+Wire Wire Line
+	6950 1800 7100 1800
+Wire Wire Line
+	6950 1900 7100 1900
+Wire Wire Line
+	6950 2000 7100 2000
+Text HLabel 7100 1700 2    50   Output ~ 0
+SPI_MOSI
 $EndSCHEMATC
