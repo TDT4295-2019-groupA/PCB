@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -376,12 +377,6 @@ Wire Wire Line
 	6950 2400 6950 2500
 Wire Wire Line
 	6950 2300 6950 2400
-Connection ~ 6950 2300
-Connection ~ 6950 2200
-Wire Wire Line
-	6950 2200 6950 2300
-Wire Wire Line
-	6950 2100 6950 2200
 $Comp
 L Synth:EFM32GG11B4xx U?
 U 2 1 5D8D4390
@@ -505,4 +500,12 @@ Wire Wire Line
 	6950 2000 7100 2000
 Text HLabel 7100 1700 2    50   Output ~ 0
 SPI_MOSI
+Text HLabel 7100 2100 2    50   Input ~ 0
+FPGA_Ready
+Text HLabel 7100 2200 2    50   Output ~ 0
+FPGA_Reset
+Wire Wire Line
+	6950 2100 7100 2100
+Wire Wire Line
+	6950 2200 7100 2200
 $EndSCHEMATC
