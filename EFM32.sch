@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -421,28 +420,6 @@ Wire Wire Line
 Connection ~ 3550 2200
 Wire Wire Line
 	3550 2200 3550 2350
-$Comp
-L power:GND #PWR?
-U 1 1 5DA083B7
-P 1950 1550
-AR Path="/5DA083B7" Ref="#PWR?"  Part="1" 
-AR Path="/5D8502F2/5DA083B7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 1300 50  0001 C CNN
-F 1 "GND" V 1955 1422 50  0000 R CNN
-F 2 "" H 1950 1550 50  0001 C CNN
-F 3 "" H 1950 1550 50  0001 C CNN
-	1    1950 1550
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	1950 1550 1950 1650
-Connection ~ 1950 1650
-Wire Wire Line
-	1950 1650 1950 1750
-Connection ~ 1950 1750
-Wire Wire Line
-	1950 1750 1950 1850
-Connection ~ 1950 1850
 Wire Wire Line
 	1950 1850 1950 1950
 Connection ~ 1950 1950
@@ -490,7 +467,7 @@ Wire Wire Line
 Text HLabel 11300 2650 0    50   Input ~ 0
 USB_VBUS
 Wire Wire Line
-	11650 2650 11300 2650
+	11650 2650 11450 2650
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 5D907864
@@ -517,4 +494,41 @@ Wire Wire Line
 	12050 3850 11750 3850
 Wire Wire Line
 	11750 3950 12050 3950
+Connection ~ 1950 1850
+Wire Wire Line
+	1950 1750 1950 1850
+Connection ~ 1950 1750
+Wire Wire Line
+	1950 1650 1950 1750
+$Comp
+L Device:C C?
+U 1 1 5D8E2720
+P 11450 2850
+F 0 "C?" H 11565 2896 50  0000 L CNN
+F 1 "1u" H 11565 2805 50  0000 L CNN
+F 2 "" H 11488 2700 50  0001 C CNN
+F 3 "~" H 11450 2850 50  0001 C CNN
+	1    11450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8E2F22
+P 11450 3050
+F 0 "#PWR?" H 11450 2800 50  0001 C CNN
+F 1 "GND" H 11455 2877 50  0000 C CNN
+F 2 "" H 11450 3050 50  0001 C CNN
+F 3 "" H 11450 3050 50  0001 C CNN
+	1    11450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 3000 11450 3050
+Wire Wire Line
+	11450 2700 11450 2650
+Connection ~ 11450 2650
+Wire Wire Line
+	11450 2650 11300 2650
+Text Notes 11050 4050 0    50   ~ 0
+Why are these passive?
 $EndSCHEMATC
