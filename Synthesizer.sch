@@ -901,7 +901,7 @@ idk how to connect this
 Text Notes 14000 4100 0    50   ~ 0
 I think this makes sense?
 Wire Wire Line
-	14650 4450 15050 4450
+	14650 4450 14800 4450
 $Comp
 L Connector:USB_B_Micro J3
 U 1 1 5D8F0994
@@ -1126,4 +1126,20 @@ Wire Wire Line
 Text Notes 4950 4500 0    50   ~ 0
 TODO: Add a switch here for Overcurrent
 NoConn ~ 14650 4850
+$Comp
+L power:+5V #PWR047
+U 1 1 5DA5CFE7
+P 14800 4350
+F 0 "#PWR047" H 14800 4200 50  0001 C CNN
+F 1 "+5V" H 14815 4523 50  0000 C CNN
+F 2 "" H 14800 4350 50  0001 C CNN
+F 3 "" H 14800 4350 50  0001 C CNN
+	1    14800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 4450 14800 4350
+Connection ~ 14800 4450
+Wire Wire Line
+	14800 4450 15050 4450
 $EndSCHEMATC
