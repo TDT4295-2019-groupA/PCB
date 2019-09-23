@@ -716,10 +716,6 @@ $EndComp
 NoConn ~ 8200 3300
 NoConn ~ 8200 3900
 NoConn ~ 8200 4500
-NoConn ~ 8200 4600
-NoConn ~ 8200 4700
-NoConn ~ 8200 4800
-NoConn ~ 8200 4900
 NoConn ~ 8200 5000
 NoConn ~ 8200 5100
 NoConn ~ 8200 5200
@@ -1056,4 +1052,20 @@ Wire Wire Line
 Wire Wire Line
 	11300 2500 11300 2300
 Connection ~ 11300 2500
+Text HLabel 7800 4600 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 7800 4700 0    50   Output ~ 0
+SPI_MISO
+Text HLabel 7800 4800 0    50   Input ~ 0
+SPI_CLK
+Text HLabel 7800 4900 0    50   Input ~ 0
+SPI_CS
+Wire Wire Line
+	7800 4600 8200 4600
+Wire Wire Line
+	7800 4700 8200 4700
+Wire Wire Line
+	8200 4800 7800 4800
+Wire Wire Line
+	7800 4900 8200 4900
 $EndSCHEMATC
