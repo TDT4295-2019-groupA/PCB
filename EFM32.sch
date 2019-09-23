@@ -396,8 +396,6 @@ SPI_CLK
 Text HLabel 7100 2000 2    50   Output ~ 0
 SPI_CS
 Wire Wire Line
-	6950 1700 7100 1700
-Wire Wire Line
 	6950 1800 7100 1800
 Wire Wire Line
 	6950 1900 7100 1900
@@ -570,4 +568,6 @@ Wire Wire Line
 	1950 1750 1650 1750
 Wire Wire Line
 	1650 1650 1950 1650
+Wire Wire Line
+	6950 1700 7100 1700
 $EndSCHEMATC
