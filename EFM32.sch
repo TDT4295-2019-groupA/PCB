@@ -17,26 +17,26 @@ $EndDescr
 $Comp
 L Device:Crystal Y?
 U 1 1 5D884D58
-P 4050 2550
+P 4050 2600
 AR Path="/5D884D58" Ref="Y?"  Part="1" 
 AR Path="/5D8502F2/5D884D58" Ref="Y1"  Part="1" 
-F 0 "Y1" H 4050 2282 50  0000 C CNN
-F 1 "48Mhz" H 4050 2373 50  0000 C CNN
-F 2 "Crystal:Crystal_DS10_D1.0mm_L4.3mm_Vertical" H 4050 2550 50  0001 C CNN
-F 3 "~" H 4050 2550 50  0001 C CNN
-	1    4050 2550
+F 0 "Y1" V 4100 2850 50  0000 C CNN
+F 1 "48Mhz" V 4000 2850 50  0000 C CNN
+F 2 "Crystal:Crystal_DS10_D1.0mm_L4.3mm_Vertical" H 4050 2600 50  0001 C CNN
+F 3 "~" H 4050 2600 50  0001 C CNN
+	1    4050 2600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4050 2700 3800 2700
+	4050 2750 3800 2750
 Wire Wire Line
-	3800 2700 3800 2600
+	3800 2750 3800 2600
 Wire Wire Line
 	3800 2600 3550 2600
 Wire Wire Line
-	3800 2500 3800 2400
+	3800 2500 3800 2450
 Wire Wire Line
-	3800 2400 4050 2400
+	3800 2450 4050 2450
 Wire Wire Line
 	3800 2500 3550 2500
 Wire Wire Line
@@ -404,14 +404,14 @@ Wire Wire Line
 	6950 2000 7100 2000
 Text HLabel 7100 1700 2    50   Output ~ 0
 SPI_MOSI
-Text HLabel 7100 2100 2    50   Input ~ 0
+Text HLabel 5200 2050 0    50   Input ~ 0
 FPGA_Ready
-Text HLabel 7100 2200 2    50   Output ~ 0
+Text HLabel 5200 1950 0    50   Output ~ 0
 FPGA_Reset
 Wire Wire Line
-	6950 2100 7100 2100
+	5350 2050 5200 2050
 Wire Wire Line
-	6950 2200 7100 2200
+	5350 1950 5200 1950
 NoConn ~ 11650 2350
 Wire Wire Line
 	11650 2450 11300 2450
@@ -513,43 +513,67 @@ Wire Wire Line
 Connection ~ 11450 2650
 Wire Wire Line
 	10950 2650 10350 2650
-Connection ~ 1950 2450
+Text HLabel 1650 1650 0    50   Output ~ 0
+Overcurrent
+Text HLabel 1650 1750 0    50   Output ~ 0
+Soft-mute
 Wire Wire Line
-	1950 2450 1950 2550
+	1950 1750 1650 1750
 Wire Wire Line
-	1950 2350 1950 2450
-Connection ~ 1950 2350
-Connection ~ 1950 2150
+	1650 1650 1950 1650
 Wire Wire Line
-	1950 2150 1950 2350
+	6950 1700 7100 1700
+Text HLabel 1650 1850 0    50   BiDi ~ 0
+Button0
+Text HLabel 1650 1950 0    50   BiDi ~ 0
+Button1
+Text HLabel 1650 2050 0    50   BiDi ~ 0
+Button2
+Text HLabel 1650 2150 0    50   BiDi ~ 0
+Button3
+Text HLabel 3750 1750 2    50   BiDi ~ 0
+Button5
+Text HLabel 3750 1650 2    50   BiDi ~ 0
+Button4
+Text HLabel 3750 1850 2    50   BiDi ~ 0
+Button6
+Text HLabel 3750 1950 2    50   BiDi ~ 0
+Button7
 Wire Wire Line
-	1950 2050 1950 2150
-Connection ~ 1950 2050
-Connection ~ 1950 1950
+	6950 2500 6950 2600
+Connection ~ 6950 2500
 Wire Wire Line
-	1950 1950 1950 2050
+	6950 2400 6950 2500
 Wire Wire Line
-	1950 1850 1950 1950
-Wire Wire Line
-	3550 2200 3550 2350
-Connection ~ 3550 2200
-Connection ~ 3550 2100
-Wire Wire Line
-	3550 2100 3550 2200
-Wire Wire Line
-	3550 1950 3550 2100
-Connection ~ 3550 1950
-Connection ~ 3550 1850
-Wire Wire Line
-	3550 1850 3550 1950
-Wire Wire Line
-	3550 1750 3550 1850
-Connection ~ 3550 1750
-Connection ~ 3550 1650
-Wire Wire Line
-	3550 1650 3550 1750
-Wire Wire Line
-	3550 1550 3550 1650
+	6950 2300 6950 2400
+Connection ~ 6950 2400
+$Comp
+L Synth:EFM32GG11B4xx U7
+U 2 1 5D8D4390
+P 6150 2050
+F 0 "U7" H 6150 2665 50  0000 C CNN
+F 1 "EFM32GG11B4xx" H 6150 2574 50  0000 C CNN
+F 2 "" H 6100 2300 50  0001 C CNN
+F 3 "" H 6100 2300 50  0001 C CNN
+	2    6150 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 1700 0    50   BiDi ~ 0
+Button8
+Text HLabel 5200 1800 0    50   BiDi ~ 0
+Button9
+Text HLabel 3750 2100 2    50   BiDi ~ 0
+Button10
+Text HLabel 3750 2200 2    50   BiDi ~ 0
+Button11
+Text HLabel 3750 2350 2    50   BiDi ~ 0
+Button15
+Text HLabel 1650 2350 0    50   BiDi ~ 0
+Button12
+Text HLabel 1650 2450 0    50   BiDi ~ 0
+Button13
+Text HLabel 1650 2550 0    50   BiDi ~ 0
+Button14
 $Comp
 L Synth:EFM32GG11B4xx U7
 U 1 1 5D8D2098
@@ -561,14 +585,36 @@ F 3 "" H 2700 2300 50  0001 C CNN
 	1    2750 2050
 	1    0    0    -1  
 $EndComp
-Text HLabel 1650 1650 0    50   Output ~ 0
-Overcurrent
-Text HLabel 1650 1750 0    50   Output ~ 0
-Soft-mute
 Wire Wire Line
-	1950 1750 1650 1750
+	1650 1850 1950 1850
 Wire Wire Line
-	1650 1650 1950 1650
+	1950 1950 1650 1950
 Wire Wire Line
-	6950 1700 7100 1700
+	1650 2050 1950 2050
+Wire Wire Line
+	1950 2150 1650 2150
+Wire Wire Line
+	1650 2350 1950 2350
+Wire Wire Line
+	1950 2450 1650 2450
+Wire Wire Line
+	1650 2550 1950 2550
+Wire Wire Line
+	3550 1650 3750 1650
+Wire Wire Line
+	3550 1750 3750 1750
+Wire Wire Line
+	3550 1850 3750 1850
+Wire Wire Line
+	3550 1950 3750 1950
+Wire Wire Line
+	3550 2100 3750 2100
+Wire Wire Line
+	3550 2200 3750 2200
+Wire Wire Line
+	3550 2350 3750 2350
+Wire Wire Line
+	5200 1700 5350 1700
+Wire Wire Line
+	5350 1800 5200 1800
 $EndSCHEMATC
