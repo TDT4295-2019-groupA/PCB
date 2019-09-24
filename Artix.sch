@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Synthesizer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -275,6 +276,8 @@ $Comp
 L Synth:FPGA_debug J4
 U 1 1 5DB1FB59
 P 1100 5900
+AR Path="/5DB1FB59" Ref="J4"  Part="1" 
+AR Path="/5D81B1F5/5DB1FB59" Ref="J4"  Part="1" 
 F 0 "J4" H 1100 6425 50  0000 C CNN
 F 1 "FPGA_debug" H 1100 6334 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H 1100 6300 50  0001 C CNN
