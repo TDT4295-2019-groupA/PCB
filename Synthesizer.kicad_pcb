@@ -45,7 +45,7 @@
     (trace_min 0.2)
     (via_size 0.6)
     (via_drill 0.3)
-    (via_min_size 0.4)
+    (via_min_size 0.6)
     (via_min_drill 0.3)
     (uvia_size 0.3)
     (uvia_drill 0.1)
