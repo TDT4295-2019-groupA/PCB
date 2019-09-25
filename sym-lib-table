@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Synth)(type Legacy)(uri ${KIPRJMOD}/Synth.lib)(options "")(descr ""))
+  (lib (name Header)(type Legacy)(uri ${KIPRJMOD}/lib/Header.lib)(options "")(descr ""))
 )
