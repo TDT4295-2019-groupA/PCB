@@ -39,21 +39,6 @@ Wire Wire Line
 	3800 2450 4050 2450
 Wire Wire Line
 	3800 2500 3550 2500
-Wire Wire Line
-	11300 2100 11550 2100
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5D8A3009
-P 11550 1600
-AR Path="/5D8A3009" Ref="#PWR?"  Part="1" 
-AR Path="/5D8502F2/5D8A3009" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 11550 1450 50  0001 C CNN
-F 1 "+3.3VA" V 11565 1727 50  0000 L CNN
-F 2 "" H 11550 1600 50  0001 C CNN
-F 3 "" H 11550 1600 50  0001 C CNN
-	1    11550 1600
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5D8A300F
@@ -67,29 +52,12 @@ F 3 "" H 11300 2100 50  0001 C CNN
 	1    11300 2100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D8A301C
-P 12850 1400
-AR Path="/5D8A301C" Ref="#FLG?"  Part="1" 
-AR Path="/5D8502F2/5D8A301C" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 12850 1475 50  0001 C CNN
-F 1 "PWR_FLAG" H 12850 1573 50  0000 C CNN
-F 2 "" H 12850 1400 50  0001 C CNN
-F 3 "~" H 12850 1400 50  0001 C CNN
-	1    12850 1400
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 13200 8050 2050 1300
 U 5D8A47A1
 F0 "MCU Decouplers" 50
 F1 "MCUDecouplers.sch" 50
 $EndSheet
-Wire Wire Line
-	12850 1400 12950 1400
-Wire Wire Line
-	13200 2100 12850 2100
 $Comp
 L power:GND #PWR?
 U 1 1 5D8A3015
@@ -116,8 +84,6 @@ F 3 "" H 13200 1600 50  0001 C CNN
 	1    13200 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	13200 1600 12850 1600
 $Comp
 L Device:C C?
 U 1 1 5D8A2FF5
@@ -144,33 +110,6 @@ F 3 "" H 13250 1400 50  0001 C CNN
 	1    13250 1400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	11550 1600 11550 1700
-Connection ~ 11550 1600
-Connection ~ 12850 1400
-Wire Wire Line
-	12850 1600 12850 1700
-Wire Wire Line
-	12850 1700 12850 1800
-Connection ~ 12850 1600
-Connection ~ 12850 1700
-Wire Wire Line
-	12850 2100 12850 2200
-Wire Wire Line
-	12850 2200 12850 2300
-Connection ~ 12850 2100
-Connection ~ 12850 2200
-$Comp
-L Synth:EFM32GG11B4xx U7
-U 4 1 5D8DB9AF
-P 12150 1850
-F 0 "U7" H 12150 2600 50  0000 C CNN
-F 1 "EFM32GG11B4xx" H 12150 2500 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 12100 2100 50  0001 C CNN
-F 3 "" H 12100 2100 50  0001 C CNN
-	4    12150 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5D8A3060
@@ -188,8 +127,6 @@ Wire Wire Line
 	10850 3350 10850 3550
 Wire Wire Line
 	10650 1400 10650 3850
-Wire Wire Line
-	11550 1400 10650 1400
 Wire Wire Line
 	12050 3350 10850 3350
 Wire Wire Line
@@ -287,18 +224,6 @@ F 3 "" H 13650 4600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	13650 3350 13650 3450
-Connection ~ 13650 3450
-Wire Wire Line
-	13650 3450 13650 3550
-Connection ~ 13650 3550
-Wire Wire Line
-	13650 3550 13650 3650
-Connection ~ 13650 3650
-Wire Wire Line
-	13650 3650 13650 3800
-Connection ~ 13650 3800
-Wire Wire Line
 	13650 3800 13650 3900
 Connection ~ 13650 3900
 Wire Wire Line
@@ -324,34 +249,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5D9DF256
-P 6950 2600
+P 7150 2500
 AR Path="/5D9DF256" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D9DF256" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 6950 2350 50  0001 C CNN
-F 1 "GND" V 6955 2472 50  0000 R CNN
-F 2 "" H 6950 2600 50  0001 C CNN
-F 3 "" H 6950 2600 50  0001 C CNN
-	1    6950 2600
+F 0 "#PWR025" H 7150 2250 50  0001 C CNN
+F 1 "GND" V 7155 2372 50  0000 R CNN
+F 2 "" H 7150 2500 50  0001 C CNN
+F 3 "" H 7150 2500 50  0001 C CNN
+	1    7150 2500
 	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	6950 2500 6950 2600
-Connection ~ 6950 2500
-Connection ~ 6950 2400
-Wire Wire Line
-	6950 2400 6950 2500
-Wire Wire Line
-	6950 2300 6950 2400
-$Comp
-L Synth:EFM32GG11B4xx U7
-U 2 1 5D8D4390
-P 6150 2050
-F 0 "U7" H 6150 2665 50  0000 C CNN
-F 1 "EFM32GG11B4xx" H 6150 2574 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 6100 2300 50  0001 C CNN
-F 3 "" H 6100 2300 50  0001 C CNN
-	2    6150 2050
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -366,17 +272,6 @@ F 3 "" H 5350 2400 50  0001 C CNN
 	1    5350 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5350 1700 5350 1800
-Connection ~ 5350 1800
-Wire Wire Line
-	5350 1800 5350 1950
-Connection ~ 5350 1950
-Wire Wire Line
-	5350 1950 5350 2050
-Connection ~ 5350 2050
-Wire Wire Line
-	5350 2050 5350 2400
 $Comp
 L power:GND #PWR?
 U 1 1 5D9FC703
@@ -396,29 +291,14 @@ Text HLabel 7100 1900 2    50   Output ~ 0
 SPI_CLK
 Text HLabel 7100 2000 2    50   Output ~ 0
 SPI_CS
-Wire Wire Line
-	6950 1800 7100 1800
-Wire Wire Line
-	6950 1900 7100 1900
-Wire Wire Line
-	6950 2000 7100 2000
 Text HLabel 7100 1700 2    50   Output ~ 0
 SPI_MOSI
 Text HLabel 5200 2050 0    50   Input ~ 0
 FPGA_Ready
 Text HLabel 5200 1950 0    50   Output ~ 0
 FPGA_Reset
-Wire Wire Line
-	5350 2050 5200 2050
-Wire Wire Line
-	5350 1950 5200 1950
-NoConn ~ 11650 2350
-Wire Wire Line
-	11650 2450 11300 2450
 Text HLabel 10350 2650 0    50   Input ~ 0
 USB_VBUS
-Wire Wire Line
-	11650 2650 11450 2650
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 5D907864
@@ -521,8 +401,6 @@ Wire Wire Line
 	1950 1750 1650 1750
 Wire Wire Line
 	1650 1650 1950 1650
-Wire Wire Line
-	6950 1700 7100 1700
 Text HLabel 1650 1850 0    50   BiDi ~ 0
 Button0
 Text HLabel 1650 1950 0    50   BiDi ~ 0
@@ -539,25 +417,6 @@ Text HLabel 3750 1850 2    50   BiDi ~ 0
 Button6
 Text HLabel 3750 1950 2    50   BiDi ~ 0
 Button7
-Wire Wire Line
-	6950 2500 6950 2600
-Connection ~ 6950 2500
-Wire Wire Line
-	6950 2400 6950 2500
-Wire Wire Line
-	6950 2300 6950 2400
-Connection ~ 6950 2400
-$Comp
-L Synth:EFM32GG11B4xx U7
-U 2 1 5D8D4390
-P 6150 2050
-F 0 "U7" H 6150 2665 50  0000 C CNN
-F 1 "EFM32GG11B4xx" H 6150 2574 50  0000 C CNN
-F 2 "" H 6100 2300 50  0001 C CNN
-F 3 "" H 6100 2300 50  0001 C CNN
-	2    6150 2050
-	1    0    0    -1  
-$EndComp
 Text HLabel 5200 1700 0    50   BiDi ~ 0
 Button8
 Text HLabel 5200 1800 0    50   BiDi ~ 0
@@ -613,8 +472,138 @@ Wire Wire Line
 	3550 2200 3750 2200
 Wire Wire Line
 	3550 2350 3750 2350
+Connection ~ 12850 2100
+Wire Wire Line
+	13200 2100 12850 2100
+Connection ~ 12850 1600
+Wire Wire Line
+	13200 1600 12850 1600
+Wire Wire Line
+	11650 2650 11450 2650
+Wire Wire Line
+	11650 2450 11300 2450
+NoConn ~ 11650 2350
+Connection ~ 12850 1400
+Wire Wire Line
+	12850 1400 12950 1400
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D8A301C
+P 12850 1400
+AR Path="/5D8A301C" Ref="#FLG?"  Part="1" 
+AR Path="/5D8502F2/5D8A301C" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 12850 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 12850 1573 50  0000 C CNN
+F 2 "" H 12850 1400 50  0001 C CNN
+F 3 "~" H 12850 1400 50  0001 C CNN
+	1    12850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 2100 11550 2100
+Connection ~ 12850 1700
+Wire Wire Line
+	12850 1700 12850 1800
+Wire Wire Line
+	12850 1600 12850 1700
+Connection ~ 12850 2200
+Wire Wire Line
+	12850 2200 12850 2300
+Wire Wire Line
+	12850 2100 12850 2200
+Wire Wire Line
+	11550 1400 10650 1400
+$Comp
+L Synth:EFM32GG11B4xx U7
+U 4 1 5D8DB9AF
+P 12150 1850
+F 0 "U7" H 12150 2600 50  0000 C CNN
+F 1 "EFM32GG11B4xx" H 12150 2500 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 12100 2100 50  0001 C CNN
+F 3 "" H 12100 2100 50  0001 C CNN
+	4    12150 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 11550 1600
+Wire Wire Line
+	11550 1600 11550 1700
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5D8A3009
+P 11550 1600
+AR Path="/5D8A3009" Ref="#PWR?"  Part="1" 
+AR Path="/5D8502F2/5D8A3009" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 11550 1450 50  0001 C CNN
+F 1 "+3.3VA" V 11565 1727 50  0000 L CNN
+F 2 "" H 11550 1600 50  0001 C CNN
+F 3 "" H 11550 1600 50  0001 C CNN
+	1    11550 1600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7200 2300 2    50   Output ~ 0
+RED_LED
+Text HLabel 7200 2400 2    50   Output ~ 0
+GREEN_LED
+Wire Wire Line
+	5350 2050 5200 2050
+Wire Wire Line
+	5350 2050 5350 2400
+Connection ~ 5350 2050
+Wire Wire Line
+	5350 1950 5200 1950
+Wire Wire Line
+	5350 1950 5350 2050
+Connection ~ 5350 1950
+Wire Wire Line
+	6950 2500 7150 2500
+Wire Wire Line
+	6950 2000 7100 2000
+Wire Wire Line
+	6950 1900 7100 1900
+Wire Wire Line
+	6950 1800 7100 1800
+Wire Wire Line
+	6950 1700 7100 1700
+Wire Wire Line
+	5350 1800 5200 1800
+Wire Wire Line
+	5350 1800 5350 1950
+Connection ~ 5350 1800
 Wire Wire Line
 	5200 1700 5350 1700
 Wire Wire Line
-	5350 1800 5200 1800
+	5350 1700 5350 1800
+$Comp
+L Synth:EFM32GG11B4xx U7
+U 2 1 5D8D4390
+P 6150 2050
+F 0 "U7" H 6150 2665 50  0000 C CNN
+F 1 "EFM32GG11B4xx" H 6150 2574 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 6100 2300 50  0001 C CNN
+F 3 "" H 6100 2300 50  0001 C CNN
+	2    6150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2400 7200 2400
+Wire Wire Line
+	7200 2300 6950 2300
+Text HLabel 13850 3350 2    50   Output ~ 0
+FPGA_extra_1
+Text HLabel 13850 3450 2    50   Output ~ 0
+FPGA_extra_2
+Text HLabel 13850 3550 2    50   Output ~ 0
+FPGA_extra_3
+Text HLabel 13850 3650 2    50   Output ~ 0
+FPGA_extra_4
+Wire Wire Line
+	13650 3650 13850 3650
+Wire Wire Line
+	13850 3550 13650 3550
+Wire Wire Line
+	13650 3450 13850 3450
+Wire Wire Line
+	13850 3350 13650 3350
+Text Notes 7100 2200 0    50   ~ 0
+TODO: potensiometer
 $EndSCHEMATC

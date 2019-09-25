@@ -719,12 +719,6 @@ $EndComp
 NoConn ~ 8200 3300
 NoConn ~ 8200 3900
 NoConn ~ 8200 4500
-NoConn ~ 8200 5000
-NoConn ~ 8200 5100
-NoConn ~ 8200 5200
-NoConn ~ 8200 5300
-NoConn ~ 8200 5400
-NoConn ~ 8200 5500
 NoConn ~ 8200 5600
 NoConn ~ 8200 5700
 NoConn ~ 8200 5900
@@ -1071,4 +1065,28 @@ Wire Wire Line
 	8200 4800 7800 4800
 Wire Wire Line
 	7800 4900 8200 4900
+Text HLabel 7800 5000 0    50   Output ~ 0
+RED_LED
+Text HLabel 7800 5100 0    50   Output ~ 0
+GREEN_LED
+Wire Wire Line
+	7800 5100 8200 5100
+Wire Wire Line
+	8200 5000 7800 5000
+Text HLabel 7800 5200 0    50   Output ~ 0
+MCU_extra_1
+Text HLabel 7800 5300 0    50   Output ~ 0
+MCU_extra_2
+Text HLabel 7800 5400 0    50   Output ~ 0
+MCU_extra_3
+Text HLabel 7800 5500 0    50   Output ~ 0
+MCU_extra_4
+Wire Wire Line
+	7800 5500 8200 5500
+Wire Wire Line
+	8200 5400 7800 5400
+Wire Wire Line
+	7800 5300 8200 5300
+Wire Wire Line
+	8200 5200 7800 5200
 $EndSCHEMATC
