@@ -259,32 +259,6 @@ F 3 "" H 7150 2500 50  0001 C CNN
 	1    7150 2500
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D9E9467
-P 5350 2400
-AR Path="/5D9E9467" Ref="#PWR?"  Part="1" 
-AR Path="/5D8502F2/5D9E9467" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 5350 2150 50  0001 C CNN
-F 1 "GND" V 5355 2272 50  0000 R CNN
-F 2 "" H 5350 2400 50  0001 C CNN
-F 3 "" H 5350 2400 50  0001 C CNN
-	1    5350 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D9FC703
-P 3550 1550
-AR Path="/5D9FC703" Ref="#PWR?"  Part="1" 
-AR Path="/5D8502F2/5D9FC703" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 3550 1300 50  0001 C CNN
-F 1 "GND" V 3555 1422 50  0000 R CNN
-F 2 "" H 3550 1550 50  0001 C CNN
-F 3 "" H 3550 1550 50  0001 C CNN
-	1    3550 1550
-	0    -1   -1   0   
-$EndComp
 Text HLabel 7100 1800 2    50   Input ~ 0
 SPI_MISO
 Text HLabel 7100 1900 2    50   Output ~ 0
@@ -547,13 +521,7 @@ GREEN_LED
 Wire Wire Line
 	5350 2050 5200 2050
 Wire Wire Line
-	5350 2050 5350 2400
-Connection ~ 5350 2050
-Wire Wire Line
 	5350 1950 5200 1950
-Wire Wire Line
-	5350 1950 5350 2050
-Connection ~ 5350 1950
 Wire Wire Line
 	6950 2500 7150 2500
 Wire Wire Line
@@ -567,12 +535,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 1800 5200 1800
 Wire Wire Line
-	5350 1800 5350 1950
-Connection ~ 5350 1800
-Wire Wire Line
 	5200 1700 5350 1700
-Wire Wire Line
-	5350 1700 5350 1800
 $Comp
 L Synth:EFM32GG11B4xx U7
 U 2 1 5D8D4390
