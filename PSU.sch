@@ -715,25 +715,8 @@ Wire Wire Line
 Wire Wire Line
 	3650 2600 3650 2750
 Connection ~ 3650 2750
-$Comp
-L Device:C C?
-U 1 1 5DCDCA4A
-P 6750 2950
-AR Path="/5DCDCA4A" Ref="C?"  Part="1" 
-AR Path="/5DC1AA2E/5DCDCA4A" Ref="C63"  Part="1" 
-F 0 "C63" H 6650 3050 50  0000 L CNN
-F 1 "100n" H 6550 2850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 2800 50  0001 C CNN
-F 3 "~" H 6750 2950 50  0001 C CNN
-	1    6750 2950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5750 2950 6600 2950
-Wire Wire Line
-	6900 2950 7050 2950
-Wire Wire Line
-	7050 2950 7050 2750
 Wire Wire Line
 	5750 2750 6000 2750
 Wire Wire Line
@@ -741,8 +724,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 2850 6000 2750
 Connection ~ 6000 2750
-Wire Wire Line
-	6000 2750 7050 2750
 $Comp
 L Device:L L?
 U 1 1 5DCDCA58
@@ -756,9 +737,6 @@ F 3 "~" H 7250 2750 50  0001 C CNN
 	1    7250 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7050 2750 7100 2750
-Connection ~ 7050 2750
 Wire Wire Line
 	6900 3050 8500 3050
 $Comp
@@ -914,4 +892,26 @@ Wire Wire Line
 Connection ~ 6550 4950
 Wire Wire Line
 	6550 4950 6900 4950
+$Comp
+L Device:C C?
+U 1 1 5DCDCA4A
+P 6750 2950
+AR Path="/5DCDCA4A" Ref="C?"  Part="1" 
+AR Path="/5DC1AA2E/5DCDCA4A" Ref="C63"  Part="1" 
+F 0 "C63" H 6650 3050 50  0000 L CNN
+F 1 "100n" H 6550 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 2800 50  0001 C CNN
+F 3 "~" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2950 7050 2950
+Wire Wire Line
+	7050 2750 7100 2750
+Wire Wire Line
+	6000 2750 7050 2750
+Connection ~ 7050 2750
+Wire Wire Line
+	7050 2950 7050 2750
 $EndSCHEMATC

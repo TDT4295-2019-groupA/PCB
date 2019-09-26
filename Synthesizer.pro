@@ -1,4 +1,4 @@
-update=25.09.2019 16:09:57
+update=26.09.2019 10:16:32
 version=1
 last_client=kicad
 [general]
@@ -77,12 +77,12 @@ Name=In1.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=in2.Cu
-Type=0
+Name=3.3V_plane
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=In3.Cu
-Type=0
+Name=GND_plane
+Type=1
 Enabled=1
 [pcbnew/Layer.In4.Cu]
 Name=In4.Cu

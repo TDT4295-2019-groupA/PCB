@@ -43,7 +43,7 @@ L power:GND #PWR0142
 U 1 1 5D850299
 P 5350 4700
 F 0 "#PWR0142" H 5350 4450 50  0001 C CNN
-F 1 "GND" H 5355 4527 50  0000 C CNN
+F 1 "GND" H 5250 4700 50  0000 C CNN
 F 2 "" H 5350 4700 50  0001 C CNN
 F 3 "" H 5350 4700 50  0001 C CNN
 	1    5350 4700
@@ -140,26 +140,24 @@ Wire Wire Line
 $Comp
 L Device:C C72
 U 1 1 5D8637F0
-P 6150 4150
-F 0 "C72" V 5898 4150 50  0000 C CNN
-F 1 "0.1u" V 5989 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6188 4000 50  0001 C CNN
-F 3 "~" H 6150 4150 50  0001 C CNN
-	1    6150 4150
-	0    1    1    0   
+P 6250 4300
+F 0 "C72" H 6150 4200 50  0000 C CNN
+F 1 "0.1u" H 6250 4400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6288 4150 50  0001 C CNN
+F 3 "~" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5950 4150 6000 4150
 $Comp
 L Device:C C73
 U 1 1 5D86553E
-P 6700 4150
-F 0 "C73" V 6448 4150 50  0000 C CNN
-F 1 "0.1u" V 6539 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 4000 50  0001 C CNN
-F 3 "~" H 6700 4150 50  0001 C CNN
-	1    6700 4150
-	0    1    1    0   
+P 6550 4300
+F 0 "C73" H 6250 4200 50  0000 C CNN
+F 1 "0.1u" H 6350 4400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6588 4150 50  0001 C CNN
+F 3 "~" H 6550 4300 50  0001 C CNN
+	1    6550 4300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6850 4150 6850 3000
@@ -223,8 +221,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 4900 6500 4900
 Connection ~ 6500 4900
-Wire Wire Line
-	6500 4900 6700 4900
 Text HLabel 4500 3350 0    50   Input ~ 0
 Left-right-word-clock
 Wire Wire Line
@@ -283,19 +279,16 @@ Wire Wire Line
 $Comp
 L Device:CP1 C76
 U 1 1 5D8329EA
-P 6150 4350
-F 0 "C76" V 6402 4350 50  0000 C CNN
-F 1 "10u" V 6311 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4350 50  0001 C CNN
-F 3 "~" H 6150 4350 50  0001 C CNN
-	1    6150 4350
-	0    -1   -1   0   
+P 6050 4300
+F 0 "C76" H 6150 4400 50  0000 C CNN
+F 1 "10u" H 6050 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 4300 50  0001 C CNN
+F 3 "~" H 6050 4300 50  0001 C CNN
+	1    6050 4300
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 4250 5950 4650
-Wire Wire Line
-	6000 4350 6000 4150
-Connection ~ 6000 4150
 $Comp
 L Device:C C79
 U 1 1 5D83A113
@@ -341,53 +334,31 @@ Wire Wire Line
 Connection ~ 7500 3100
 Wire Wire Line
 	7500 3100 7550 3100
-Wire Wire Line
-	6300 4150 6400 4150
 $Comp
 L Device:CP1 C77
 U 1 1 5D8414C9
-P 6700 4350
-F 0 "C77" V 6448 4350 50  0000 C CNN
-F 1 "10u" V 6539 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 4350 50  0001 C CNN
-F 3 "~" H 6700 4350 50  0001 C CNN
-	1    6700 4350
-	0    1    1    0   
+P 6750 4300
+F 0 "C77" H 6550 4400 50  0000 C CNN
+F 1 "10u" H 6550 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6750 4300 50  0001 C CNN
+F 3 "~" H 6750 4300 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 4800 6400 4600
-Connection ~ 6400 4150
-Wire Wire Line
-	6400 4150 6550 4150
-Wire Wire Line
-	6550 4350 6400 4350
-Connection ~ 6400 4350
-Wire Wire Line
-	6400 4350 6400 4150
-Wire Wire Line
-	6400 4350 6300 4350
-Wire Wire Line
-	6850 4350 6850 4150
-Connection ~ 6850 4150
-Wire Wire Line
-	6700 4900 6700 4550
-Wire Wire Line
-	6700 4550 7100 4550
+	7100 4900 7100 4550
 Connection ~ 7750 4550
 $Comp
 L power:GND #PWR0151
 U 1 1 5D8587ED
-P 6400 4600
-F 0 "#PWR0151" H 6400 4350 50  0001 C CNN
-F 1 "GND" V 6405 4472 50  0000 R CNN
-F 2 "" H 6400 4600 50  0001 C CNN
-F 3 "" H 6400 4600 50  0001 C CNN
-	1    6400 4600
-	0    -1   -1   0   
+P 5450 4800
+F 0 "#PWR0151" H 5450 4550 50  0001 C CNN
+F 1 "GND" H 5500 4650 50  0000 R CNN
+F 2 "" H 5450 4800 50  0001 C CNN
+F 3 "" H 5450 4800 50  0001 C CNN
+	1    5450 4800
+	1    0    0    -1  
 $EndComp
-Connection ~ 6400 4600
-Wire Wire Line
-	6400 4600 6400 4350
 Wire Wire Line
 	7100 4300 7100 4550
 Connection ~ 7100 4550
@@ -433,4 +404,30 @@ F 3 "" H 6500 4900 50  0001 C CNN
 	1    6500 4900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6500 4900 7100 4900
+Connection ~ 5450 4800
+Wire Wire Line
+	6550 4150 6750 4150
+Connection ~ 6750 4150
+Wire Wire Line
+	6750 4150 6850 4150
+Wire Wire Line
+	6750 4450 6550 4450
+Connection ~ 6550 4450
+Wire Wire Line
+	6550 4450 6400 4450
+Wire Wire Line
+	5950 4150 6050 4150
+Connection ~ 6050 4150
+Wire Wire Line
+	6050 4150 6250 4150
+Wire Wire Line
+	6400 4800 6400 4450
+Connection ~ 6400 4450
+Wire Wire Line
+	6050 4450 6250 4450
+Connection ~ 6250 4450
+Wire Wire Line
+	6250 4450 6400 4450
 $EndSCHEMATC

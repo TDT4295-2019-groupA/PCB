@@ -48,11 +48,11 @@ P 4100 4100
 AR Path="/5D8A3009" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D8A3009" Ref="#PWR034"  Part="1" 
 F 0 "#PWR034" H 4100 3950 50  0001 C CNN
-F 1 "+3.3VA" V 4115 4227 50  0000 L CNN
+F 1 "+3.3VA" H 3800 4100 50  0000 L CNN
 F 2 "" H 4100 4100 50  0001 C CNN
 F 3 "" H 4100 4100 50  0001 C CNN
 	1    4100 4100
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
@@ -61,11 +61,11 @@ P 3850 4600
 AR Path="/5D8A300F" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D8A300F" Ref="#PWR028"  Part="1" 
 F 0 "#PWR028" H 3850 4450 50  0001 C CNN
-F 1 "+3.3V" V 3865 4728 50  0000 L CNN
+F 1 "+3.3V" H 3750 4550 50  0000 L CNN
 F 2 "" H 3850 4600 50  0001 C CNN
 F 3 "" H 3850 4600 50  0001 C CNN
 	1    3850 4600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
@@ -88,20 +88,18 @@ F1 "MCUDecouplers.sch" 50
 $EndSheet
 Wire Wire Line
 	5400 3900 5500 3900
-Wire Wire Line
-	5750 4600 5400 4600
 $Comp
 L power:GND #PWR?
 U 1 1 5D8A3015
-P 5750 4600
+P 5400 4850
 AR Path="/5D8A3015" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D8A3015" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 5750 4350 50  0001 C CNN
-F 1 "GND" H 5755 4427 50  0000 C CNN
-F 2 "" H 5750 4600 50  0001 C CNN
-F 3 "" H 5750 4600 50  0001 C CNN
-	1    5750 4600
-	0    -1   -1   0   
+F 0 "#PWR039" H 5400 4600 50  0001 C CNN
+F 1 "GND" H 5405 4677 50  0000 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
@@ -124,8 +122,8 @@ U 1 1 5D8A2FF5
 P 5650 3900
 AR Path="/5D8A2FF5" Ref="C?"  Part="1" 
 AR Path="/5D8502F2/5D8A2FF5" Ref="C6"  Part="1" 
-F 0 "C6" H 5700 4000 50  0000 L CNN
-F 1 "1u" H 5700 3800 50  0000 L CNN
+F 0 "C6" V 5600 3950 50  0000 L CNN
+F 1 "1u" V 5600 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 3750 50  0001 C CNN
 F 3 "~" H 5650 3900 50  0001 C CNN
 	1    5650 3900
@@ -158,7 +156,6 @@ Wire Wire Line
 	5400 4600 5400 4700
 Wire Wire Line
 	5400 4700 5400 4800
-Connection ~ 5400 4600
 Connection ~ 5400 4700
 $Comp
 L Synth:EFM32GG11B4xx U7
@@ -210,11 +207,11 @@ P 3850 4950
 AR Path="/5D907864" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D907864" Ref="#PWR030"  Part="1" 
 F 0 "#PWR030" H 3850 4800 50  0001 C CNN
-F 1 "+3.3VA" V 3865 5077 50  0000 L CNN
+F 1 "+3.3VA" H 3750 4900 50  0000 L CNN
 F 2 "" H 3850 4950 50  0001 C CNN
 F 3 "" H 3850 4950 50  0001 C CNN
 	1    3850 4950
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
@@ -334,10 +331,6 @@ Wire Wire Line
 	5350 2050 5200 2050
 Wire Wire Line
 	5350 1950 5200 1950
-Connection ~ 6950 2400
-Wire Wire Line
-	6950 2300 6950 2400
-Connection ~ 6950 2300
 Wire Wire Line
 	6950 2200 6950 2100
 Wire Wire Line
@@ -542,36 +535,6 @@ Wire Wire Line
 	6450 6750 6450 7650
 Wire Wire Line
 	6200 6750 6450 6750
-Wire Wire Line
-	4250 6700 4600 6700
-Wire Wire Line
-	4250 6600 4600 6600
-Wire Wire Line
-	3850 6600 3950 6600
-Wire Wire Line
-	3950 6700 3850 6700
-$Comp
-L Device:R R34
-U 1 1 5D8F8046
-P 4100 6700
-F 0 "R34" V 4200 6700 50  0000 C CNN
-F 1 "15" V 4100 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 6700 50  0001 C CNN
-F 3 "~" H 4100 6700 50  0001 C CNN
-	1    4100 6700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R33
-U 1 1 5D8F7A40
-P 4100 6600
-F 0 "R33" V 4000 6600 50  0000 C CNN
-F 1 "15" V 4100 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 6600 50  0001 C CNN
-F 3 "~" H 4100 6600 50  0001 C CNN
-	1    4100 6600
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR032
 U 1 1 5D8E2F22
@@ -584,10 +547,6 @@ F 3 "" H 4000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4600 6850
-Text HLabel 3850 6700 0    50   UnSpc ~ 0
-USB_D+
-Text HLabel 3850 6600 0    50   UnSpc ~ 0
-USB_D-
 Wire Wire Line
 	4300 6450 4600 6450
 Text HLabel 4300 6450 0    50   Input ~ 0
@@ -638,4 +597,17 @@ Wire Wire Line
 	2300 6600 2300 3900
 Wire Wire Line
 	2300 3900 4100 3900
+Wire Wire Line
+	5400 4850 5400 4800
+Connection ~ 5400 4800
+Entry Wire Line
+	10100 6050 10200 6150
+Text HLabel 4300 6700 0    50   UnSpc ~ 0
+USB_D+
+Text HLabel 4300 6600 0    50   UnSpc ~ 0
+USB_D-
+Wire Wire Line
+	4300 6600 4600 6600
+Wire Wire Line
+	4600 6700 4300 6700
 $EndSCHEMATC
