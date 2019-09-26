@@ -482,8 +482,6 @@ Wire Wire Line
 	7400 5050 7100 5050
 Connection ~ 7100 5050
 Wire Wire Line
-	7100 5050 7100 5000
-Wire Wire Line
 	7400 5700 7400 5600
 Wire Wire Line
 	6900 5700 7300 5700

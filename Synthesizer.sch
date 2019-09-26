@@ -224,16 +224,16 @@ S 9150 8000 2600 1700
 U 5D83F73E
 F0 "Audio DAC" 50
 F1 "AudioDac.sch" 50
-F2 "De-emphasis" I L 9150 8100 50 
-F3 "Filter-select" I L 9150 8200 50 
-F4 "Soft-mute" I L 9150 8300 50 
-F5 "Format-select" I L 9150 8400 50 
-F6 "OUTL" O R 11750 8100 50 
-F7 "OUTR" O R 11750 8200 50 
-F8 "Left-right-word-clock" I L 9150 8750 50 
+F2 "De-emphasis" I L 9150 9600 50 
+F3 "Filter-select" I L 9150 9500 50 
+F4 "Soft-mute" I L 9150 9400 50 
+F5 "Format-select" I L 9150 9300 50 
+F6 "OUTL" O R 11750 9600 50 
+F7 "OUTR" O R 11750 9500 50 
+F8 "Left-right-word-clock" I L 9150 8950 50 
 F9 "Audio-data" I L 9150 8850 50 
-F10 "Bit-clock" I L 9150 8950 50 
-F11 "System-master-clock" I L 9150 9050 50 
+F10 "Bit-clock" I L 9150 8750 50 
+F11 "System-master-clock" I L 9150 8650 50 
 $EndSheet
 Text Notes 9200 8700 0    50   ~ 0
 PCM audio source
