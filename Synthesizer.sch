@@ -844,24 +844,10 @@ F 3 "" H 2950 5850 50  0001 C CNN
 	1    2950 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C1
-U 1 1 5D947DEC
-P 3700 4150
-F 0 "C1" H 3815 4196 50  0000 L CNN
-F 1 "150u" H 3815 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 4000 50  0001 C CNN
-F 3 "~" H 3700 4150 50  0001 C CNN
-	1    3700 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 4750 3700 4550
 Wire Wire Line
 	3700 4550 3850 4550
-Wire Wire Line
-	3700 4550 3700 4300
-Connection ~ 3700 4550
 Wire Wire Line
 	4750 4750 4750 4550
 Wire Wire Line
@@ -887,16 +873,16 @@ Wire Wire Line
 $Comp
 L Device:Ferrite_Bead FB3
 U 1 1 5D98E4B3
-P 3400 4750
-F 0 "FB3" V 3126 4750 50  0000 C CNN
-F 1 "Ferrite_Bead" V 3217 4750 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 4750 50  0001 C CNN
-F 3 "~" H 3400 4750 50  0001 C CNN
-	1    3400 4750
+P 3500 4750
+F 0 "FB3" V 3226 4750 50  0000 C CNN
+F 1 "Ferrite_Bead" V 3317 4750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 4750 50  0001 C CNN
+F 3 "~" H 3500 4750 50  0001 C CNN
+	1    3500 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 4750 3550 4750
+	3700 4750 3650 4750
 Wire Wire Line
 	4900 2200 4900 2400
 $Comp
@@ -1312,8 +1298,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tpd3s014.pdf" H 4050 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 4150 4250 4000
-Wire Wire Line
-	3700 4000 4250 4000
 Connection ~ 4250 4000
 Wire Wire Line
 	4750 4000 4250 4000
@@ -1595,4 +1579,24 @@ Text Notes 10600 4750 0    50   ~ 0
 Not sure about this...
 Text Notes 6950 5700 0    50   ~ 0
 resistance assuming source = 20mA
+$Comp
+L Device:C C1
+U 1 1 5D9C6D9F
+P 3250 4200
+F 0 "C1" H 3365 4246 50  0000 L CNN
+F 1 "100u" H 3365 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 4050 50  0001 C CNN
+F 3 "~" H 3250 4200 50  0001 C CNN
+	1    3250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4000 3250 4050
+Wire Wire Line
+	3250 4000 4250 4000
+Wire Wire Line
+	3250 4350 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3250 4750 3350 4750
 $EndSCHEMATC
