@@ -332,8 +332,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1950 5200 1950
 Wire Wire Line
-	6950 2200 6950 2100
-Wire Wire Line
 	6950 2000 7100 2000
 Wire Wire Line
 	6950 1900 7100 1900
@@ -610,4 +608,6 @@ Wire Wire Line
 	4300 6600 4600 6600
 Wire Wire Line
 	4600 6700 4300 6700
+Text Notes 5000 3650 0    50   ~ 0
+why the PWR_FLAG?
 $EndSCHEMATC

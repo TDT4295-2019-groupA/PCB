@@ -818,8 +818,6 @@ Wire Wire Line
 	14350 5050 14350 5100
 NoConn ~ 14650 4650
 NoConn ~ 14650 4750
-Text Notes 14000 4100 0    50   ~ 0
-I think this makes sense?
 Wire Wire Line
 	14650 4450 14800 4450
 $Comp
@@ -1581,8 +1579,8 @@ $Comp
 L Device:R R?
 U 1 1 5D94BD21
 P 10800 5000
-F 0 "R?" V 10700 5000 50  0000 C CNN
-F 1 "100" V 10800 5000 50  0000 C CNN
+F 0 "R?" V 10900 5000 50  0000 C CNN
+F 1 "160" V 10800 5000 50  0000 C CNN
 F 2 "" V 10730 5000 50  0001 C CNN
 F 3 "~" H 10800 5000 50  0001 C CNN
 	1    10800 5000
@@ -1593,4 +1591,8 @@ Wire Wire Line
 Wire Wire Line
 	10950 5000 11000 5000
 Connection ~ 11000 5000
+Text Notes 10600 4750 0    50   ~ 0
+Not sure about this...
+Text Notes 6950 5700 0    50   ~ 0
+resistance assuming source = 20mA
 $EndSCHEMATC
