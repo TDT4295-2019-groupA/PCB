@@ -529,7 +529,7 @@ AR Path="/5DCDC9E4" Ref="U?"  Part="1"
 AR Path="/5DC1AA2E/5DCDC9E4" Ref="U5"  Part="1" 
 F 0 "U5" H 5000 2450 50  0000 C CNN
 F 1 "TPS54325" H 5450 2450 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-32-1EP_6.1x11mm_P0.65mm_EP5.2x11mm_Mask4.11x4.36mm" H 5150 2450 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 5150 2450 50  0001 C CNN
 F 3 "" H 5150 2450 50  0001 C CNN
 	1    5150 2450
 	1    0    0    -1  
@@ -870,7 +870,7 @@ Text HLabel 8600 4450 1    50   Input ~ 0
 3.3V
 Text HLabel 9900 4450 1    50   Input ~ 0
 3.3VA
-Text HLabel 2650 4500 1    50   Input ~ 0
+Text HLabel 2650 4500 1    50   Output ~ 0
 1.8V
 Text HLabel 8000 2550 1    50   Input ~ 0
 1.0V
