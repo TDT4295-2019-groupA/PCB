@@ -461,10 +461,6 @@ F 3 "" H 7300 6000 50  0001 C CNN
 	1    7300 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 5900 7100 5900
-Wire Wire Line
-	7100 5900 7100 5600
 $Comp
 L Device:C C4
 U 1 1 5DC18FF3
@@ -485,11 +481,6 @@ Wire Wire Line
 	7400 5700 7400 5600
 Wire Wire Line
 	6900 5700 7300 5700
-Wire Wire Line
-	7100 5600 6900 5600
-Connection ~ 7100 5600
-Wire Wire Line
-	7100 5600 7100 5050
 Wire Wire Line
 	7300 5700 7300 6000
 Connection ~ 7300 5700
@@ -1093,4 +1084,13 @@ Wire Wire Line
 	1950 10850 1800 10850
 Wire Wire Line
 	1950 11450 1800 11450
+Wire Wire Line
+	7100 5050 7100 5600
+Wire Wire Line
+	7100 5900 6900 5900
+Wire Wire Line
+	6900 5600 7100 5600
+Connection ~ 7100 5600
+Wire Wire Line
+	7100 5600 7100 5900
 $EndSCHEMATC
