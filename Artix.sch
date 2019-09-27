@@ -957,13 +957,13 @@ F 3 "" H 2700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7800 4000 0    50   Output ~ 0
-IO_L4P_T0_D04_14
+DAC_SCK
 Text HLabel 7800 4100 0    50   Output ~ 0
-IO_L4N_T0_D05_14
+DAC_BCK
 Text HLabel 7800 4200 0    50   Output ~ 0
-IO_L5P_T0_D06_14
+DAC_DATA
 Text HLabel 7800 4300 0    50   Output ~ 0
-IO_L5P_T0_D07_14
+DAC_LRCK
 Wire Wire Line
 	9200 4000 7800 4000
 Wire Wire Line
