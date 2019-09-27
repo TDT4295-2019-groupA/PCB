@@ -22,7 +22,7 @@ AR Path="/5D884D58" Ref="Y?"  Part="1"
 AR Path="/5D8502F2/5D884D58" Ref="Y1"  Part="1" 
 F 0 "Y1" V 4100 2850 50  0000 C CNN
 F 1 "48Mhz" V 4000 2850 50  0000 C CNN
-F 2 "Crystal:Crystal_DS10_D1.0mm_L4.3mm_Vertical" H 4050 2600 50  0001 C CNN
+F 2 "footprints:Crystal_SMD_Abracon_L11.4mm_W4.70mm_2pin" H 4050 2600 50  0001 C CNN
 F 3 "~" H 4050 2600 50  0001 C CNN
 	1    4050 2600
 	0    1    1    0   
@@ -124,7 +124,7 @@ AR Path="/5D8A2FF5" Ref="C?"  Part="1"
 AR Path="/5D8502F2/5D8A2FF5" Ref="C6"  Part="1" 
 F 0 "C6" V 5600 3950 50  0000 L CNN
 F 1 "1u" V 5600 3750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5688 3750 50  0001 C CNN
 F 3 "~" H 5650 3900 50  0001 C CNN
 	1    5650 3900
 	0    1    1    0   
@@ -219,7 +219,7 @@ U 1 1 5D8E2720
 P 4000 5350
 F 0 "C5" H 4115 5396 50  0000 L CNN
 F 1 "100u" H 4115 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4038 5200 50  0001 C CNN
 F 3 "~" H 4000 5350 50  0001 C CNN
 	1    4000 5350
 	1    0    0    -1  
@@ -234,7 +234,7 @@ U 1 1 5D906A55
 P 3650 5150
 F 0 "FB2" V 3376 5150 50  0000 C CNN
 F 1 "Ferrite_Bead" V 3467 5150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 5150 50  0001 C CNN
+F 2 "footprints:FerriteBead_74279215" V 3580 5150 50  0001 C CNN
 F 3 "~" H 3650 5150 50  0001 C CNN
 	1    3650 5150
 	0    -1   -1   0   

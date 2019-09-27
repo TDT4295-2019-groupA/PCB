@@ -1,4 +1,4 @@
-update=26.09.2019 17:10:55
+update=fr. 27. sep. 2019 kl. 09.45 +0200
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=Synthesizer.net
 CopperLayerCount=6
 BoardThickness=1.6
 AllowMicroVias=0
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -78,7 +78,7 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=3.3V_plane
-Type=2
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=GND_plane
