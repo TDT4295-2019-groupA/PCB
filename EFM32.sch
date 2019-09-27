@@ -44,14 +44,14 @@ Wire Wire Line
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 5D8A3009
-P 4100 4100
+P 4000 4050
 AR Path="/5D8A3009" Ref="#PWR?"  Part="1" 
 AR Path="/5D8502F2/5D8A3009" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 4100 3950 50  0001 C CNN
-F 1 "+3.3VA" H 3800 4100 50  0000 L CNN
-F 2 "" H 4100 4100 50  0001 C CNN
-F 3 "" H 4100 4100 50  0001 C CNN
-	1    4100 4100
+F 0 "#PWR034" H 4000 3900 50  0001 C CNN
+F 1 "+3.3VA" H 3700 4050 50  0000 L CNN
+F 2 "" H 4000 4050 50  0001 C CNN
+F 3 "" H 4000 4050 50  0001 C CNN
+	1    4000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -65,19 +65,6 @@ F 1 "+3.3V" H 3750 4550 50  0000 L CNN
 F 2 "" H 3850 4600 50  0001 C CNN
 F 3 "" H 3850 4600 50  0001 C CNN
 	1    3850 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D8A301C
-P 5400 3900
-AR Path="/5D8A301C" Ref="#FLG?"  Part="1" 
-AR Path="/5D8502F2/5D8A301C" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 5400 3975 50  0001 C CNN
-F 1 "PWR_FLAG" H 5400 4073 50  0000 C CNN
-F 2 "" H 5400 3900 50  0001 C CNN
-F 3 "~" H 5400 3900 50  0001 C CNN
-	1    5400 3900
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -142,10 +129,6 @@ F 3 "" H 5800 3900 50  0001 C CNN
 	1    5800 3900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4100 4100 4100 4200
-Connection ~ 4100 4100
-Connection ~ 5400 3900
 Wire Wire Line
 	5400 4100 5400 4200
 Wire Wire Line
@@ -583,8 +566,6 @@ Wire Wire Line
 	4300 6600 4600 6600
 Wire Wire Line
 	4600 6700 4300 6700
-Text Notes 5000 3650 0    50   ~ 0
-why the PWR_FLAG?
 Wire Wire Line
 	6700 6600 6750 6600
 $Comp
@@ -656,4 +637,13 @@ Wire Wire Line
 Connection ~ 5450 4700
 NoConn ~ 8250 2600
 NoConn ~ 8250 1700
+Wire Wire Line
+	4100 4200 4000 4200
+Wire Wire Line
+	4000 4200 4000 4100
+Wire Wire Line
+	4100 4100 4000 4100
+Connection ~ 4000 4100
+Wire Wire Line
+	4000 4100 4000 4050
 $EndSCHEMATC
