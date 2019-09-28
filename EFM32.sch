@@ -111,7 +111,7 @@ AR Path="/5D8A2FF5" Ref="C?"  Part="1"
 AR Path="/5D8502F2/5D8A2FF5" Ref="C6"  Part="1" 
 F 0 "C6" V 5600 3950 50  0000 L CNN
 F 1 "1u" V 5600 3750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5688 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 3750 50  0001 C CNN
 F 3 "~" H 5650 3900 50  0001 C CNN
 	1    5650 3900
 	0    1    1    0   
