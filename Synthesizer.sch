@@ -727,17 +727,6 @@ Wire Wire Line
 	4750 4750 4750 4550
 Wire Wire Line
 	4750 4550 4650 4550
-$Comp
-L Device:C C2
-U 1 1 5D9626CB
-P 4750 4150
-F 0 "C2" H 4865 4196 50  0000 L CNN
-F 1 "0.1u" H 4865 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4788 4000 50  0001 C CNN
-F 3 "~" H 4750 4150 50  0001 C CNN
-	1    4750 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 4300 4750 4550
 Connection ~ 4750 4550
@@ -1450,10 +1439,20 @@ Wire Wire Line
 Connection ~ 3250 4750
 Wire Wire Line
 	3250 4750 3350 4750
-NoConn ~ 4300 3100
 Wire Wire Line
 	1250 12150 1250 12700
 Connection ~ 1250 12700
 Wire Wire Line
 	1250 12700 1250 13250
+$Comp
+L Device:C C2
+U 1 1 5D9626CB
+P 4750 4150
+F 0 "C2" H 4865 4196 50  0000 L CNN
+F 1 "100n" H 4865 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 4000 50  0001 C CNN
+F 3 "~" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
