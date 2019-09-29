@@ -556,8 +556,6 @@ Wire Wire Line
 	2300 6600 2300 3900
 Wire Wire Line
 	2300 3900 4100 3900
-Entry Wire Line
-	10100 6050 10200 6150
 Text HLabel 4300 6700 0    50   UnSpc ~ 0
 USB_D+
 Text HLabel 4300 6600 0    50   UnSpc ~ 0
