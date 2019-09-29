@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -1824,7 +1824,7 @@
     (fp_text reference J1 (at -3.24032 -7.4235 180) (layer F.SilkS)
       (effects (font (size 1.40274 1.40274) (thickness 0.05)))
     )
-    (fp_text value USB_A (at -2.53924 13.2031 180) (layer F.SilkS)
+    (fp_text value USB_A (at 12.37996 10.60196 180) (layer F.SilkS)
       (effects (font (size 1.40235 1.40235) (thickness 0.05)))
     )
     (fp_circle (center -3.50329 -1.60872) (end -3.25329 -1.60872) (layer Eco2.User) (width 0.2))
