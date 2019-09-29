@@ -198,7 +198,7 @@ AR Path="/5DCDC92E" Ref="L?"  Part="1"
 AR Path="/5DC1AA2E/5DCDC92E" Ref="L2"  Part="1" 
 F 0 "L2" V 7340 4550 50  0000 C CNN
 F 1 "2.2u" V 7249 4550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 4550 50  0001 C CNN
+F 2 "footprints:L_SPM3015" H 7150 4550 50  0001 C CNN
 F 3 "~" H 7150 4550 50  0001 C CNN
 	1    7150 4550
 	0    -1   -1   0   
@@ -444,7 +444,7 @@ AR Path="/5DCDC9B1" Ref="L?"  Part="1"
 AR Path="/5DC1AA2E/5DCDC9B1" Ref="L1"  Part="1" 
 F 0 "L1" V 4190 4600 50  0000 C CNN
 F 1 "1.5u" V 4099 4600 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 4600 50  0001 C CNN
+F 2 "footprints:L_SPM3015" H 4000 4600 50  0001 C CNN
 F 3 "~" H 4000 4600 50  0001 C CNN
 	1    4000 4600
 	0    -1   -1   0   
@@ -680,7 +680,7 @@ AR Path="/5DCDCA31" Ref="C?"  Part="1"
 AR Path="/5DC1AA2E/5DCDCA31" Ref="C61"  Part="1" 
 F 0 "C61" H 6615 3296 50  0000 L CNN
 F 1 "100u" H 6615 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6500 3250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6500 3250 50  0001 C CNN
 F 3 "~" H 6500 3250 50  0001 C CNN
 	1    6500 3250
 	1    0    0    -1  
@@ -732,7 +732,7 @@ AR Path="/5DCDCA58" Ref="L?"  Part="1"
 AR Path="/5DC1AA2E/5DCDCA58" Ref="L3"  Part="1" 
 F 0 "L3" V 7350 2750 50  0000 C CNN
 F 1 "1.5u" V 7200 2750 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 2750 50  0001 C CNN
+F 2 "footprints:L_SPM3015" H 7250 2750 50  0001 C CNN
 F 3 "~" H 7250 2750 50  0001 C CNN
 	1    7250 2750
 	0    -1   -1   0   
