@@ -680,7 +680,7 @@ AR Path="/5DCDCA31" Ref="C?"  Part="1"
 AR Path="/5DC1AA2E/5DCDCA31" Ref="C61"  Part="1" 
 F 0 "C61" H 6615 3296 50  0000 L CNN
 F 1 "100u" H 6615 3205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6500 3250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6500 3250 50  0001 C CNN
 F 3 "~" H 6500 3250 50  0001 C CNN
 	1    6500 3250
 	1    0    0    -1  

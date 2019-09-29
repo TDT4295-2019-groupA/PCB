@@ -1069,19 +1069,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 5400 8150 5400
 $Comp
-L power:GND #PWR045
-U 1 1 5D8C624B
-P 2650 5850
-F 0 "#PWR045" H 2650 5600 50  0001 C CNN
-F 1 "GND" H 2655 5677 50  0000 C CNN
-F 2 "" H 2650 5850 50  0001 C CNN
-F 3 "" H 2650 5850 50  0001 C CNN
-	1    2650 5850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 5800 2650 5850
-$Comp
 L Device:Ferrite_Bead FB1
 U 1 1 5D913522
 P 2950 5650
@@ -1277,23 +1264,6 @@ Wire Wire Line
 	4700 4350 4700 4850
 Wire Wire Line
 	4700 4850 5350 4850
-$Comp
-L Device:Ferrite_Bead FB4
-U 1 1 5D8BFD20
-P 2650 5650
-F 0 "FB4" H 2787 5696 50  0000 L CNN
-F 1 "Ferrite_Bead" H 2787 5605 50  0000 L CNN
-F 2 "footprints:FerriteBead_74279215" V 2580 5650 50  0001 C CNN
-F 3 "~" H 2650 5650 50  0001 C CNN
-	1    2650 5650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 5500 2650 5450
-Wire Wire Line
-	2650 5450 2750 5450
-Wire Wire Line
-	2750 5450 2750 5350
 Wire Wire Line
 	2850 5350 2850 5450
 Wire Wire Line
@@ -1454,5 +1424,35 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 4000 50  
 F 3 "~" H 4750 4150 50  0001 C CNN
 	1    4750 4150
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5D8C624B
+P 2650 5850
+F 0 "#PWR045" H 2650 5600 50  0001 C CNN
+F 1 "GND" H 2655 5677 50  0000 C CNN
+F 2 "" H 2650 5850 50  0001 C CNN
+F 3 "" H 2650 5850 50  0001 C CNN
+	1    2650 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5800 2650 5850
+Wire Wire Line
+	2650 5500 2650 5450
+Wire Wire Line
+	2750 5450 2750 5350
+Wire Wire Line
+	2650 5450 2750 5450
+$Comp
+L Device:Ferrite_Bead FB4
+U 1 1 5D8BFD20
+P 2650 5650
+F 0 "FB4" H 2787 5696 50  0000 L CNN
+F 1 "Ferrite_Bead" H 2787 5605 50  0000 L CNN
+F 2 "footprints:FerriteBead_74279215" V 2580 5650 50  0001 C CNN
+F 3 "~" H 2650 5650 50  0001 C CNN
+	1    2650 5650
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
