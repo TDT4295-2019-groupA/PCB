@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sdhgsdfg/School/TDT4295/PCB/Synthesizer.sch)
-    (date "ma. 30. sep. 2019 kl. 15.12 +0200")
+    (date "ma. 30. sep. 2019 kl. 16.34 +0200")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -403,7 +403,7 @@
       (tstamp 5DB18715))
     (comp (ref J4)
       (value FPGA_debug)
-      (footprint Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical)
       (libsource (lib Synth) (part FPGA_debug) (description ""))
       (sheetpath (names /Artix7/) (tstamps /5D81B1F5/))
       (tstamp 5DB1FB59))

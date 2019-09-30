@@ -280,7 +280,7 @@ AR Path="/5DB1FB59" Ref="J?"  Part="1"
 AR Path="/5D81B1F5/5DB1FB59" Ref="J4"  Part="1" 
 F 0 "J4" H 1100 6425 50  0000 C CNN
 F 1 "FPGA_debug" H 1100 6334 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H 1100 6300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 1100 6300 50  0001 C CNN
 F 3 "" H 1100 6300 50  0001 C CNN
 	1    1100 5900
 	1    0    0    -1  
