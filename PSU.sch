@@ -882,7 +882,7 @@ AR Path="/5DCDC8F8" Ref="C?"  Part="1"
 AR Path="/5DC1AA2E/5DCDC8F8" Ref="C62"  Part="1" 
 F 0 "C62" H 6665 5146 50  0000 L CNN
 F 1 "1u" H 6665 5055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6588 4950 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6588 4950 50  0001 C CNN
 F 3 "~" H 6550 5100 50  0001 C CNN
 	1    6550 5100
 	1    0    0    -1  
