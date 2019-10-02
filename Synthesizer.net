@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sdhgsdfg/School/TDT4295/PCB/Synthesizer.sch)
-    (date "on. 02. okt. 2019 kl. 14.13 +0200")
+    (date "on. 02. okt. 2019 kl. 16.56 +0200")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -409,7 +409,7 @@
       (tstamp 5DB1FB59))
     (comp (ref U4)
       (value Oscillator)
-      (footprint Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm)
+      (footprint Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering)
       (libsource (lib Synth) (part Oscillator) (description ""))
       (sheetpath (names /Artix7/) (tstamps /5D81B1F5/))
       (tstamp 5DBDB09B))
